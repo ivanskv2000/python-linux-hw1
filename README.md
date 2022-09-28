@@ -1,5 +1,7 @@
 # Python and Linux &mdash; HW-1
 
+![meme](https://user-images.githubusercontent.com/54892573/192755055-7f6dd303-b19c-4651-808b-000ed118e4b2.jpg)
+
 ## Description
 This script parses a website up to a specified depth or number of pages.
 
