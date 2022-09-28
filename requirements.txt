@@ -1,0 +1,5 @@
+beautifulsoup4==4.11.1
+click==8.0.3
+enlighten==1.10.2
+requests==2.26.0
+treelib==1.6.1
