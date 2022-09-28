@@ -37,7 +37,7 @@ At its minimum, the script just requires a full url of a website to parse. The l
 - The code in `parser.py` is heavily commented, please refer there for more info.
 - Parser does not use any methods to bypass anti-parsing blockings. It is assumed that given sites are not protected from parsing. The only way to lower the risk of a server-side blocking is to specify the `sleep` parameter.
 - It is possible to see the warnings for each requested url (if any) after the parsing is completed. To do so, print "Y" when prompted.
-- 
+- Fragment identifiers ("#") in urls, which refer to page sections rather that other pages are treated as ordinary links. For example, urls "https://one.com/article#fragment_1" and "https://one.com/article#fragment_2" will generate two separate ids and two data files, even though these pages are identical from the html point of view. Of course, this behavior can be modified by changing the `DeepWebParser.complete_url()` function (splitting by "#" and dropping the right-hand side part), but I thought it is better to keep hashes as is.
 
 ## Example
 > :warning: **Results may vary depending on your machine, network and other specifications.**
