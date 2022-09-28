@@ -1,0 +1,2081 @@
+Poetry - Python dependency management and packaging made easy
+├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Access denied
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#install)
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy (#cache-dir)
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy (#virtualenvsin-project)
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging (#multiple-constraints-dependencies)
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#activating-the-virtual-environment)
+│   ├── Poetry - Python dependency management and packaging made easy (#basic-usage)
+│   ├── Poetry - Python dependency management and packaging made easy (#commit-your-poetrylock-file-to-version-control)
+│   ├── Poetry - Python dependency management and packaging made easy (#initialising-a-pre-existing-project)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-dependencies)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-dependencies-only)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-with-poetrylock)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-without-poetrylock)
+│   ├── Poetry - Python dependency management and packaging made easy (#project-setup)
+│   ├── Poetry - Python dependency management and packaging made easy (#specifying-dependencies)
+│   ├── Poetry - Python dependency management and packaging made easy (#updating-dependencies-to-their-latest-versions)
+│   ├── Poetry - Python dependency management and packaging made easy (#using-poetry-run)
+│   ├── Poetry - Python dependency management and packaging made easy (#using-your-virtual-environment)
+│   ├── Poetry - Python dependency management and packaging made easy (#version-constraints)
+│   ├── PyPI · The Python Package Index
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m (#packages)
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── 1.1 | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── 1.2 | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── 1.x | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Announcing Poetry 1.1.11 | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Announcing Poetry 1.1.12 | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Announcing Poetry 1.1.13 | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Announcing Poetry 1.1.14 | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Announcing Poetry 1.1.15 | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Announcing Poetry 1.2.0 | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Announcing Poetry 1.2.0b1 | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Announcing Poetry 1.2.0rc1 | Blog | Poetry - Python dependency management and packaging made eas
+│   ├── Announcing Poetry 1.2.0rc2 | Blog | Poetry - Python dependency management and packaging made eas
+│   ├── Announcing Poetry 1.2.1 | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+│   └── releases | Blog | Poetry - Python dependency management and packaging made easy
+├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Access denied
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging (#using-the--operator)
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy (#versioning)
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad (#dependency-groups)
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── PEP 440 – Version Identification and Dependency Specification | peps.python.org
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#about)
+│   ├── Poetry - Python dependency management and packaging made easy (#add)
+│   ├── Poetry - Python dependency management and packaging made easy (#build)
+│   ├── Poetry - Python dependency management and packaging made easy (#cache)
+│   ├── Poetry - Python dependency management and packaging made easy (#cache-clear)
+│   ├── Poetry - Python dependency management and packaging made easy (#cache-list)
+│   ├── Poetry - Python dependency management and packaging made easy (#check)
+│   ├── Poetry - Python dependency management and packaging made easy (#commands)
+│   ├── Poetry - Python dependency management and packaging made easy (#config)
+│   ├── Poetry - Python dependency management and packaging made easy (#env)
+│   ├── Poetry - Python dependency management and packaging made easy (#export)
+│   ├── Poetry - Python dependency management and packaging made easy (#global-options)
+│   ├── Poetry - Python dependency management and packaging made easy (#help)
+│   ├── Poetry - Python dependency management and packaging made easy (#init)
+│   ├── Poetry - Python dependency management and packaging made easy (#install)
+│   ├── Poetry - Python dependency management and packaging made easy (#list)
+│   ├── Poetry - Python dependency management and packaging made easy (#lock)
+│   ├── Poetry - Python dependency management and packaging made easy (#new)
+│   ├── Poetry - Python dependency management and packaging made easy (#options)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-1)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-10)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-11)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-12)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-13)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-14)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-15)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-16)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-17)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-18)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-19)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-2)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-3)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-4)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-5)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-6)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-7)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-8)
+│   ├── Poetry - Python dependency management and packaging made easy (#options-9)
+│   ├── Poetry - Python dependency management and packaging made easy (#publish)
+│   ├── Poetry - Python dependency management and packaging made easy (#remove)
+│   ├── Poetry - Python dependency management and packaging made easy (#run)
+│   ├── Poetry - Python dependency management and packaging made easy (#search)
+│   ├── Poetry - Python dependency management and packaging made easy (#self)
+│   ├── Poetry - Python dependency management and packaging made easy (#self-add)
+│   ├── Poetry - Python dependency management and packaging made easy (#self-install)
+│   ├── Poetry - Python dependency management and packaging made easy (#self-lock)
+│   ├── Poetry - Python dependency management and packaging made easy (#self-remove)
+│   ├── Poetry - Python dependency management and packaging made easy (#self-show)
+│   ├── Poetry - Python dependency management and packaging made easy (#self-show-plugins)
+│   ├── Poetry - Python dependency management and packaging made easy (#self-update)
+│   ├── Poetry - Python dependency management and packaging made easy (#shell)
+│   ├── Poetry - Python dependency management and packaging made easy (#show)
+│   ├── Poetry - Python dependency management and packaging made easy (#source)
+│   ├── Poetry - Python dependency management and packaging made easy (#source-add)
+│   ├── Poetry - Python dependency management and packaging made easy (#source-remove)
+│   ├── Poetry - Python dependency management and packaging made easy (#source-show)
+│   ├── Poetry - Python dependency management and packaging made easy (#update)
+│   ├── Poetry - Python dependency management and packaging made easy (#usage)
+│   ├── Poetry - Python dependency management and packaging made easy (#version)
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy (#disabling-the-pypi-repository)
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy (#install-dependencies-from-a-private-repository)
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m (#extras)
+│   ├── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+│   ├── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas (#poetry-check)
+│   ├── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas (#poetry-export)
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas (#poetry-lock)
+├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#config)
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#adding-or-updating-a-configuration-setting)
+│   ├── Poetry - Python dependency management and packaging made easy (#available-settings)
+│   ├── Poetry - Python dependency management and packaging made easy (#cache-dir)
+│   ├── Poetry - Python dependency management and packaging made easy (#cache-directory)
+│   ├── Poetry - Python dependency management and packaging made easy (#certificatesnamecert)
+│   ├── Poetry - Python dependency management and packaging made easy (#certificatesnameclient-cert)
+│   ├── Poetry - Python dependency management and packaging made easy (#config-directory)
+│   ├── Poetry - Python dependency management and packaging made easy (#configuration)
+│   ├── Poetry - Python dependency management and packaging made easy (#data-directory)
+│   ├── Poetry - Python dependency management and packaging made easy (#default-directories)
+│   ├── Poetry - Python dependency management and packaging made easy (#displaying-a-single-configuration-setting)
+│   ├── Poetry - Python dependency management and packaging made easy (#experimentalsystem-git-client)
+│   ├── Poetry - Python dependency management and packaging made easy (#http-basicname)
+│   ├── Poetry - Python dependency management and packaging made easy (#installermax-workers)
+│   ├── Poetry - Python dependency management and packaging made easy (#installerno-binary)
+│   ├── Poetry - Python dependency management and packaging made easy (#installerparallel)
+│   ├── Poetry - Python dependency management and packaging made easy (#listing-the-current-configuration)
+│   ├── Poetry - Python dependency management and packaging made easy (#local-configuration)
+│   ├── Poetry - Python dependency management and packaging made easy (#pypi-tokenname)
+│   ├── Poetry - Python dependency management and packaging made easy (#removing-a-specific-setting)
+│   ├── Poetry - Python dependency management and packaging made easy (#repositoriesname)
+│   ├── Poetry - Python dependency management and packaging made easy (#using-environment-variables)
+│   ├── Poetry - Python dependency management and packaging made easy (#virtualenvscreate)
+│   ├── Poetry - Python dependency management and packaging made easy (#virtualenvsin-project)
+│   ├── Poetry - Python dependency management and packaging made easy (#virtualenvsoptionsalways-copy)
+│   ├── Poetry - Python dependency management and packaging made easy (#virtualenvsoptionsno-pip)
+│   ├── Poetry - Python dependency management and packaging made easy (#virtualenvsoptionsno-setuptools)
+│   ├── Poetry - Python dependency management and packaging made easy (#virtualenvsoptionssystem-site-packages)
+│   ├── Poetry - Python dependency management and packaging made easy (#virtualenvspath)
+│   ├── Poetry - Python dependency management and packaging made easy (#virtualenvsprefer-active-python-experimental)
+│   ├── Poetry - Python dependency management and packaging made easy (#virtualenvsprompt)
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy (#configuring-credentials)
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy (#custom-certificate-authority-and-mutual-tls-authentication)
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── About Git rebase - GitHub Docs
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contribute to python-poetry/poetry · GitHub
+│   ├── Contributing to projects - GitHub Docs
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── Discover gists · GitHub
+│   ├── Discussions · python-poetry/poetry · GitHub
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#before-submitting-a-bug-report)
+│   ├── Poetry - Python dependency management and packaging made easy (#before-submitting-a-suggested-enhancement)
+│   ├── Poetry - Python dependency management and packaging made easy (#code-contributions)
+│   ├── Poetry - Python dependency management and packaging made easy (#contributing-to-poetry)
+│   ├── Poetry - Python dependency management and packaging made easy (#documentation-contributions)
+│   ├── Poetry - Python dependency management and packaging made easy (#how-do-i-submit-a-bug-report)
+│   ├── Poetry - Python dependency management and packaging made easy (#how-do-i-submit-a-suggested-enhancement)
+│   ├── Poetry - Python dependency management and packaging made easy (#how-to-contribute)
+│   ├── Poetry - Python dependency management and packaging made easy (#issue-triage)
+│   ├── Poetry - Python dependency management and packaging made easy (#local-development)
+│   ├── Poetry - Python dependency management and packaging made easy (#multiple-versions)
+│   ├── Poetry - Python dependency management and packaging made easy (#picking-an-issue)
+│   ├── Poetry - Python dependency management and packaging made easy (#pull-requests)
+│   ├── Poetry - Python dependency management and packaging made easy (#reporting-bugs)
+│   ├── Poetry - Python dependency management and packaging made easy (#suggesting-enhancements)
+│   ├── Poetry - Python dependency management and packaging made easy (#triage-steps)
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Sign in to GitHub · GitHub
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── mypy - Optional Static Typing for Python
+│   ├── pipx
+│   ├── pre-commit
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── 404 Page not found | Poetry - Python dependency management and packaging made easy (#using-a-private-repository)
+│   ├── Access denied (#url-fragments)
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── Dulwich
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Git - gitcredentials Documentation
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── PEP 508 – Dependency specification for Python Software Packages | peps.python.org (#environment-markers)
+│   ├── PEP 508 – Dependency specification for Python Software Packages | peps.python.org (#extras)
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#caret-requirements)
+│   ├── Poetry - Python dependency management and packaging made easy (#dependency-extras)
+│   ├── Poetry - Python dependency management and packaging made easy (#dependency-specification)
+│   ├── Poetry - Python dependency management and packaging made easy (#exact-requirements)
+│   ├── Poetry - Python dependency management and packaging made easy (#expanded-dependency-specification-syntax)
+│   ├── Poetry - Python dependency management and packaging made easy (#extras)
+│   ├── Poetry - Python dependency management and packaging made easy (#git-dependencies)
+│   ├── Poetry - Python dependency management and packaging made easy (#inequality-requirements)
+│   ├── Poetry - Python dependency management and packaging made easy (#multiple-constraints-dependencies)
+│   ├── Poetry - Python dependency management and packaging made easy (#multiple-requirements)
+│   ├── Poetry - Python dependency management and packaging made easy (#path-dependencies)
+│   ├── Poetry - Python dependency management and packaging made easy (#python-restricted-dependencies)
+│   ├── Poetry - Python dependency management and packaging made easy (#source-dependencies)
+│   ├── Poetry - Python dependency management and packaging made easy (#tilde-requirements)
+│   ├── Poetry - Python dependency management and packaging made easy (#url-dependencies)
+│   ├── Poetry - Python dependency management and packaging made easy (#using-environment-markers)
+│   ├── Poetry - Python dependency management and packaging made easy (#using-the--operator)
+│   ├── Poetry - Python dependency management and packaging made easy (#version-constraints)
+│   ├── Poetry - Python dependency management and packaging made easy (#wildcard-requirements)
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy (#configuring-credentials)
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy (#install-dependencies-from-a-private-repository)
+│   ├── Semantic Versioning 2.0.0 | Semantic Versioning
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m (#extras)
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── About – Vercel
+│   ├── Angular - Solutions – Vercel
+│   ├── Automatic SSL with Vercel and Let's Encrypt – Vercel
+│   ├── Become a Partner – Vercel
+│   ├── Blog – Vercel
+│   ├── Caching – Vercel Docs
+│   ├── Careers – Vercel
+│   ├── Changelog – Vercel
+│   ├── Compression – Vercel Docs
+│   ├── Contact – Vercel
+│   ├── DMCA Policy – Vercel
+│   ├── DPA – Vercel
+│   ├── Data Fetching: Overview | Next.js
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel (#get-started)
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel (#reach-skip-nav)
+│   ├── Edge Network – Vercel Docs
+│   ├── Enterprise – Vercel
+│   ├── Event Terms and Conditions – Vercel
+│   ├── Find an Expert – Vercel
+│   ├── Find an Integration – Vercel
+│   ├── Find your Template – Vercel
+│   ├── Functions – Vercel Docs
+│   ├── Gatsby - Solutions – Vercel
+│   ├── Guides – Vercel Docs
+│   ├── Help – Vercel Docs
+│   ├── How to Deploy a Vue.js Site with Vercel – Vercel Docs
+│   ├── Inactivity policy – Vercel
+│   ├── Introduction to Vercel – Vercel Docs
+│   ├── Job Applicant Privacy Notice – Vercel
+│   ├── Login – Vercel
+│   ├── Meet our Customers – Vercel
+│   ├── New Project – Vercel
+│   ├── New Project – Vercel
+│   ├── New Project – Vercel
+│   ├── New Project – Vercel
+│   ├── New Project – Vercel
+│   ├── New Project – Vercel
+│   ├── New Project – Vercel
+│   ├── New Project – Vercel
+│   ├── New Project – Vercel
+│   ├── Next.js Conf
+│   ├── Next.js on Vercel – Vercel
+│   ├── Open Source – Vercel
+│   ├── Pricing – Vercel
+│   ├── Privacy Policy – Vercel
+│   ├── REST API – Vercel Docs
+│   ├── React - Solutions – Vercel
+│   ├── Security – Vercel
+│   ├── Service Level Agreement – Vercel
+│   ├── Showcase | Next.js (#e-commerce)
+│   ├── Showcase | Next.js (#marketing)
+│   ├── Showcase | Next.js (#news)
+│   ├── Showcase | Next.js (#travel)
+│   ├── Sign Up – Vercel
+│   ├── Sub-Processors – Vercel
+│   ├── Support Terms – Vercel
+│   ├── SvelteKit on Vercel – Vercel
+│   ├── Talk to a Vercel expert – Vercel
+│   ├── Talk to a Vercel expert – Vercel
+│   ├── Templates – Vercel
+│   ├── Terms of Service – Vercel
+│   ├── Third Party – Vercel
+│   ├── Trademark policy – Vercel
+│   ├── Unknown
+│   ├── Unknown
+│   ├── Vercel CLI – Vercel Docs
+│   ├── Vercel for Bitbucket – Vercel Docs
+│   ├── Vercel for GitHub – Vercel Docs
+│   ├── Vercel for GitLab – Vercel Docs
+│   ├── Vercel · GitHub
+│   └── Vue.js - Solutions – Vercel
+├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Access denied (#conf-isolated_build)
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging (#multiple-constraints-dependencies)
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── PEP 440 – Version Identification and Dependency Specification | peps.python.org
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#faq)
+│   ├── Poetry - Python dependency management and packaging made easy (#i-dont-want-poetry-to-manage-my-virtual-environments-can-i-disable-it)
+│   ├── Poetry - Python dependency management and packaging made easy (#is-tox-supported)
+│   ├── Poetry - Python dependency management and packaging made easy (#usecase-1)
+│   ├── Poetry - Python dependency management and packaging made easy (#usecase-2)
+│   ├── Poetry - Python dependency management and packaging made easy (#usecase-3)
+│   ├── Poetry - Python dependency management and packaging made easy (#why-are-unbound-version-constraints-a-bad-idea)
+│   ├── Poetry - Python dependency management and packaging made easy (#why-does-poetry-enforce-pep-440-versions)
+│   ├── Poetry - Python dependency management and packaging made easy (#why-is-poetry-telling-me-that-the-current-projects-python-requirement-is-not-compatible-with-one-or-more-packages-python-requirements)
+│   ├── Poetry - Python dependency management and packaging made easy (#why-is-the-dependency-resolution-process-slow)
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Semantic Versioning 2.0.0 | Semantic Versioning
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── About remote repositories - GitHub Docs
+│   ├── About · GitHub
+│   ├── Actions · python-poetry/poetry-plugin-export · GitHub
+│   ├── Add LICENSE (#81) · python-poetry/poetry-plugin-export@1a6888f · GitHub
+│   ├── Add LICENSE by maresb · Pull Request #81 · python-poetry/poetry-plugin-export · GitHub
+│   ├── Branches · python-poetry/poetry-plugin-export · GitHub
+│   ├── Collections · GitHub
+│   ├── Commits · python-poetry/poetry-plugin-export · GitHub
+│   ├── Continuous Integration and Continuous Delivery (CI/CD) Fundamentals | GitHub Resources
+│   ├── Contributors to python-poetry/poetry-plugin-export · GitHub
+│   ├── Customer stories · GitHub
+│   ├── Enterprise · A smarter way to work together · GitHub
+│   ├── Features | GitHub · GitHub
+│   ├── Features · Code review · GitHub
+│   ├── Features · Security · GitHub
+│   ├── Features • GitHub Actions · GitHub
+│   ├── Forks · python-poetry/poetry-plugin-export · GitHub
+│   ├── GitHub - python-poetry/poetry-plugin-export at db9647ead577d2fa8275075b9c8c7f57868bd7a6
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub Apps - pre-commit ci · GitHub
+│   ├── GitHub CLI | Take GitHub to the command line
+│   ├── GitHub Codespaces · GitHub
+│   ├── GitHub Copilot · Your AI pair programmer · GitHub
+│   ├── GitHub Desktop | Simple collaboration from your desktop
+│   ├── GitHub Desktop | Simple collaboration from your desktop
+│   ├── GitHub Discussions · The home for developer communities  · GitHub
+│   ├── GitHub Documentation
+│   ├── GitHub Issues · Project planning for developers · GitHub
+│   ├── GitHub Packages: Your packages, at home with their code · GitHub
+│   ├── GitHub Privacy Statement - GitHub Docs
+│   ├── GitHub Professional Services | From idea to implementation, our experts are ready to help your t
+│   ├── GitHub Security · GitHub
+│   ├── GitHub Skills
+│   ├── GitHub Sponsors · GitHub
+│   ├── GitHub Status
+│   ├── GitHub Terms of Service - GitHub Docs
+│   ├── GitHub for teams · Build like the best teams on the planet · GitHub
+│   ├── GitHub: Where the world builds software · GitHub
+│   ├── GitHub: Where the world builds software · GitHub
+│   ├── GitHub: Where the world builds software · GitHub (#available-options)
+│   ├── GitHub: Where the world builds software · GitHub (#installation)
+│   ├── GitHub: Where the world builds software · GitHub (#poetry-plugin-export)
+│   ├── GitHub: Where the world builds software · GitHub (#readme)
+│   ├── GitHub: Where the world builds software · GitHub (#start-of-content)
+│   ├── GitHub: Where the world builds software · GitHub (#usage)
+│   ├── Home - GitHub Resources
+│   ├── Issues · python-poetry/poetry-plugin-export · GitHub
+│   ├── Join GitHub · GitHub
+│   ├── Join GitHub · GitHub
+│   ├── Packages · Poetry · GitHub
+│   ├── Page not found · GitHub · GitHub
+│   ├── Poetry · GitHub
+│   ├── Port the existing export command to a plugin · python-poetry/poetry-plugin-export@33d2628 · GitH
+│   ├── Pricing · Plans for every developer · GitHub
+│   ├── Pricing · Plans for every developer · GitHub (#compare-features)
+│   ├── Projects · poetry-plugin-export · GitHub
+│   ├── Pull requests · python-poetry/poetry-plugin-export · GitHub
+│   ├── Pulse · python-poetry/poetry-plugin-export · GitHub
+│   ├── Release 1.0.7 · python-poetry/poetry-plugin-export · GitHub
+│   ├── Releases · python-poetry/poetry-plugin-export · GitHub
+│   ├── Search ·  · GitHub
+│   ├── Security Overview · python-poetry/poetry-plugin-export · GitHub
+│   ├── Sign in to GitHub · GitHub
+│   ├── Sign in to GitHub · GitHub
+│   ├── Stargazers · python-poetry/poetry-plugin-export · GitHub
+│   ├── Tags · python-poetry/poetry-plugin-export · GitHub
+│   ├── The Fundamentals of DevSecOps in DevOps - GitHub Resources
+│   ├── The GitHub Blog | Updates, ideas, and inspiration from GitHub to help developers build and desig
+│   ├── The ReadME Project · Meet the people behind the projects you love · GitHub
+│   ├── Topics on GitHub · GitHub
+│   ├── Trending  repositories on GitHub today · GitHub
+│   ├── Unknown
+│   ├── Unknown
+│   ├── Watchers · python-poetry/poetry-plugin-export · GitHub
+│   ├── What is DevOps? DevOps, CI/CD and DevSecOps Defined | GitHub Resources
+│   ├── Xcode 14 Overview - Apple Developer
+│   ├── [pre-commit.ci] pre-commit autoupdate (#124) · python-poetry/poetry-plugin-export@db9647e · GitH
+│   ├── [pre-commit.ci] pre-commit autoupdate by pre-commit-ci[bot] · Pull Request #124 · python-poetry/
+│   ├── abn (Arun Babu Neelicattu) · GitHub
+│   ├── andersk (Anders Kaseorg) · GitHub
+│   ├── branchvincent (Branch Vincent) · GitHub
+│   ├── bump version to 1.0.7 · python-poetry/poetry-plugin-export@18ab772 · GitHub
+│   ├── ci: run mypy first to fail fast · python-poetry/poetry-plugin-export@d7b6e0d · GitHub
+│   ├── dependency groups: rename implicit group "default" to "main" · python-poetry/poetry-plugin-expor
+│   ├── dgilman (David Gilman) · GitHub
+│   ├── dimbleby (David Hotham) · GitHub
+│   ├── docs: update installation command (#100) · python-poetry/poetry-plugin-export@37f083f · GitHub
+│   ├── docs: update installation command by branchvincent · Pull Request #100 · python-poetry/poetry-pl
+│   ├── ejd (Eric) · GitHub
+│   ├── fix --with-credentials export of --extra-index-url lines (#117) · python-poetry/poetry-plugin-ex
+│   ├── fix --with-credentials export of --extra-index-url lines by ejd · Pull Request #117 · python-poe
+│   ├── mkniewallner (Mathieu Kniewallner) · GitHub
+│   ├── pmav99 · GitHub
+│   ├── poetry-plugin-export/.flake8 at main · python-poetry/poetry-plugin-export · GitHub
+│   ├── poetry-plugin-export/.github/workflows at main · python-poetry/poetry-plugin-export · GitHub
+│   ├── poetry-plugin-export/.gitignore at main · python-poetry/poetry-plugin-export · GitHub
+│   ├── poetry-plugin-export/.pre-commit-config.yaml at main · python-poetry/poetry-plugin-export · GitH
+│   ├── poetry-plugin-export/.pre-commit-hooks.yaml at main · python-poetry/poetry-plugin-export · GitHu
+│   ├── poetry-plugin-export/CHANGELOG.md at main · python-poetry/poetry-plugin-export · GitHub
+│   ├── poetry-plugin-export/LICENSE at main · python-poetry/poetry-plugin-export · GitHub
+│   ├── poetry-plugin-export/README.md at main · python-poetry/poetry-plugin-export · GitHub
+│   ├── poetry-plugin-export/docs at main · python-poetry/poetry-plugin-export · GitHub
+│   ├── poetry-plugin-export/poetry.lock at main · python-poetry/poetry-plugin-export · GitHub
+│   ├── poetry-plugin-export/pyproject.toml at main · python-poetry/poetry-plugin-export · GitHub
+│   ├── poetry-plugin-export/src/poetry_plugin_export at main · python-poetry/poetry-plugin-export · Git
+│   ├── poetry-plugin-export/tests at main · python-poetry/poetry-plugin-export · GitHub
+│   ├── provide the poetry-export pre-commit hook · python-poetry/poetry-plugin-export@d186c95 · GitHub
+│   ├── radoering (Randy Döring) · GitHub
+│   ├── run mypy in proper environment · python-poetry/poetry-plugin-export@5795cee · GitHub
+│   └── sdispater (Sébastien Eustace) · GitHub
+├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── About remote repositories - GitHub Docs
+│   ├── About · GitHub
+│   ├── Actions · python-poetry/poetry · GitHub
+│   ├── Add LICENSE · python-poetry/poetry@10e50e6 · GitHub
+│   ├── Add a Code of Conduct (#694) · python-poetry/poetry@fe326bf · GitHub
+│   ├── Add a Code of Conduct by danyeaw · Pull Request #694 · python-poetry/poetry · GitHub
+│   ├── Add note about publishable repositories to publish by StarrFox · Pull Request #6641 · python-poe
+│   ├── Branches · python-poetry/poetry · GitHub
+│   ├── Check project against valid and deprecated trove classifiers. (#2881) · python-poetry/poetry@ddf
+│   ├── Check project against valid and deprecated trove classifiers. by kdeldycke · Pull Request #2881
+│   ├── Collections · GitHub
+│   ├── Commits · python-poetry/poetry · GitHub
+│   ├── Commits · python-poetry/poetry · GitHub
+│   ├── Commits · python-poetry/poetry · GitHub
+│   ├── Continuous Integration and Continuous Delivery (CI/CD) Fundamentals | GitHub Resources
+│   ├── Contribute to python-poetry/poetry · GitHub
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Contributors to python-poetry/poetry · GitHub
+│   ├── Customer stories · GitHub
+│   ├── Discussions · python-poetry/poetry · GitHub
+│   ├── Enterprise · A smarter way to work together · GitHub
+│   ├── Features | GitHub · GitHub
+│   ├── Features · Code review · GitHub
+│   ├── Features · Security · GitHub
+│   ├── Features • GitHub Actions · GitHub
+│   ├── Fix the files pattern · python-poetry/poetry@a358be7 · GitHub
+│   ├── Forks · python-poetry/poetry · GitHub
+│   ├── GitHub - python-poetry/install.python-poetry.org: The official Poetry installation script
+│   ├── GitHub - python-poetry/poetry at 89514fc68077c1d2330e45ad3895176d295f01d5
+│   ├── GitHub - python-poetry/poetry-core: Poetry PEP 517 Build Backend & Core Utilities
+│   ├── GitHub - python-poetry/poetry-plugin-bundle: Poetry plugin to bundle projects into various forma
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/website: Source for the official Poetry website
+│   ├── GitHub Apps - pre-commit ci · GitHub
+│   ├── GitHub CLI | Take GitHub to the command line
+│   ├── GitHub Codespaces · GitHub
+│   ├── GitHub Copilot · Your AI pair programmer · GitHub
+│   ├── GitHub Desktop | Simple collaboration from your desktop
+│   ├── GitHub Desktop | Simple collaboration from your desktop
+│   ├── GitHub Discussions · The home for developer communities  · GitHub
+│   ├── GitHub Documentation
+│   ├── GitHub Issues · Project planning for developers · GitHub
+│   ├── GitHub Packages: Your packages, at home with their code · GitHub
+│   ├── GitHub Privacy Statement - GitHub Docs
+│   ├── GitHub Professional Services | From idea to implementation, our experts are ready to help your t
+│   ├── GitHub Security · GitHub
+│   ├── GitHub Skills
+│   ├── GitHub Sponsors · GitHub
+│   ├── GitHub Status
+│   ├── GitHub Support
+│   ├── GitHub Terms of Service - GitHub Docs
+│   ├── GitHub for teams · Build like the best teams on the planet · GitHub
+│   ├── GitHub: Where the world builds software · GitHub
+│   ├── GitHub: Where the world builds software · GitHub
+│   ├── GitHub: Where the world builds software · GitHub (#contribute)
+│   ├── GitHub: Where the world builds software · GitHub (#documentation)
+│   ├── GitHub: Where the world builds software · GitHub (#installation)
+│   ├── GitHub: Where the world builds software · GitHub (#poetry-python-packaging-and-dependency-management-made-easy)
+│   ├── GitHub: Where the world builds software · GitHub (#readme)
+│   ├── GitHub: Where the world builds software · GitHub (#related-projects)
+│   ├── GitHub: Where the world builds software · GitHub (#resources)
+│   ├── GitHub: Where the world builds software · GitHub (#start-of-content)
+│   ├── Home - GitHub Resources
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy (#installation)
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Join GitHub · GitHub
+│   ├── Join GitHub · GitHub
+│   ├── Page not found · GitHub · GitHub
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry · GitHub
+│   ├── Pricing · Plans for every developer · GitHub
+│   ├── Pricing · Plans for every developer · GitHub (#compare-features)
+│   ├── Projects · poetry · GitHub
+│   ├── Pull requests · python-poetry/poetry · GitHub
+│   ├── Pulse · python-poetry/poetry · GitHub
+│   ├── PyPI Download Stats
+│   ├── Python Poetry
+│   ├── Release 1.2.1 · python-poetry/poetry · GitHub
+│   ├── Releases · python-poetry/poetry · GitHub
+│   ├── Search ·  · GitHub
+│   ├── Search ·  · GitHub
+│   ├── Secrus (Bartosz Sokorski) · GitHub
+│   ├── Security Overview · python-poetry/poetry · GitHub
+│   ├── Sign in to GitHub · GitHub
+│   ├── Sign in to GitHub · GitHub
+│   ├── Stargazers · python-poetry/poetry · GitHub
+│   ├── StarrFox · GitHub
+│   ├── Tags · python-poetry/poetry · GitHub
+│   ├── The Fundamentals of DevSecOps in DevOps - GitHub Resources
+│   ├── The GitHub Blog | Updates, ideas, and inspiration from GitHub to help developers build and desig
+│   ├── The ReadME Project · Meet the people behind the projects you love · GitHub
+│   ├── Topics on GitHub · GitHub
+│   ├── Trending  repositories on GitHub today · GitHub
+│   ├── Unknown
+│   ├── Unknown
+│   ├── Unknown
+│   ├── Use flake8-pie by AlpAribal · Pull Request #6164 · python-poetry/poetry · GitHub
+│   ├── Watchers · python-poetry/poetry · GitHub
+│   ├── What is DevOps? DevOps, CI/CD and DevSecOps Defined | GitHub Resources
+│   ├── Wrap long lines to comply with flake8 E501 (#4985) · python-poetry/poetry@ecb030e · GitHub
+│   ├── Wrap long lines to comply with flake8 E501 by stinodego · Pull Request #4985 · python-poetry/poe
+│   ├── Xcode 14 Overview - Apple Developer
+│   ├── [pre-commit.ci] pre-commit autoupdate (#6635) · python-poetry/poetry@cf3dcad · GitHub
+│   ├── [pre-commit.ci] pre-commit autoupdate by pre-commit-ci[bot] · Pull Request #6635 · python-poetry
+│   ├── abn (Arun Babu Neelicattu) · GitHub
+│   ├── branchvincent (Branch Vincent) · GitHub
+│   ├── chore: drop tox · python-poetry/poetry@183fbea · GitHub
+│   ├── chore: post 1.2.1 cleanup · python-poetry/poetry@ebee342 · GitHub
+│   ├── ci(freebsd): bump FreeBSD image to 13.1-RELEASE · python-poetry/poetry@88ba18d · GitHub
+│   ├── ci: define `timeout` on macOS · python-poetry/poetry@aee025e · GitHub
+│   ├── ci: use flake8-pie (#6164) · python-poetry/poetry@c1aff5c · GitHub
+│   ├── dependency-manager · GitHub Topics · GitHub
+│   ├── dimbleby (David Hotham) · GitHub
+│   ├── docs(cli): add note about publishable repositories to publish (#6641) · python-poetry/poetry@895
+│   ├── docs: fix minor typos in README (and demo non-semver constraint) · python-poetry/poetry@424ea0c
+│   ├── docs: update README gif · python-poetry/poetry@526e6a1 · GitHub
+│   ├── finswimmer · GitHub
+│   ├── kasteph · GitHub
+│   ├── mkniewallner (Mathieu Kniewallner) · GitHub
+│   ├── neersighted (Bjorn Neergaard) · GitHub
+│   ├── package-manager · GitHub Topics · GitHub
+│   ├── packaging · GitHub Topics · GitHub
+│   ├── poetry · GitHub Topics · GitHub
+│   ├── poetry · PyPI
+│   ├── poetry · PyPI (#history)
+│   ├── poetry/.cirrus.yml at master · python-poetry/poetry · GitHub
+│   ├── poetry/.flake8 at master · python-poetry/poetry · GitHub
+│   ├── poetry/.github at master · python-poetry/poetry · GitHub
+│   ├── poetry/.gitignore at master · python-poetry/poetry · GitHub
+│   ├── poetry/.pre-commit-config.yaml at master · python-poetry/poetry · GitHub
+│   ├── poetry/.pre-commit-hooks.yaml at master · python-poetry/poetry · GitHub
+│   ├── poetry/CHANGELOG.md at master · python-poetry/poetry · GitHub
+│   ├── poetry/CODE_OF_CONDUCT.md at master · python-poetry/poetry · GitHub
+│   ├── poetry/LICENSE at master · python-poetry/poetry · GitHub
+│   ├── poetry/README.md at master · python-poetry/poetry · GitHub
+│   ├── poetry/assets at master · python-poetry/poetry · GitHub
+│   ├── poetry/docs at master · python-poetry/poetry · GitHub
+│   ├── poetry/get-poetry.py at master · python-poetry/poetry · GitHub
+│   ├── poetry/install-poetry.py at master · python-poetry/poetry · GitHub
+│   ├── poetry/poetry.lock at master · python-poetry/poetry · GitHub
+│   ├── poetry/pyproject.toml at master · python-poetry/poetry · GitHub
+│   ├── poetry/src/poetry at master · python-poetry/poetry · GitHub
+│   ├── poetry/tests at master · python-poetry/poetry · GitHub
+│   ├── provider: fetch optional vcs dependency only if required · python-poetry/poetry@e64eb9e · GitHub
+│   ├── python · GitHub Topics · GitHub
+│   ├── radoering (Randy Döring) · GitHub
+│   ├── refactor: once again rework get-poetry.py · python-poetry/poetry@58d2b99 · GitHub
+│   ├── sdispater (Sébastien Eustace) · GitHub
+│   ├── tidying up (#6555) · python-poetry/poetry@31aec09 · GitHub
+│   └── tidying up by dimbleby · Pull Request #6555 · python-poetry/poetry · GitHub
+├── History | Poetry - Python dependency management and packaging made easy
+│   ├── "expected string or bytes-like object" on poetry install · Issue #3628 · python-poetry/poetry ·
+│   ├── (Port) Fix: conda environment is detected as broken (#4566) by finswimmer · Pull Request #5008 ·
+│   ├── Add 'rc' to VERSION_REGEX by adawalli · Pull Request #2978 · python-poetry/poetry · GitHub
+│   ├── Add (experimental) option to use current active python to create venv ("pyenv way") by finswimme
+│   ├── Add --dry-run option for publish command by abn · Pull Request #2199 · python-poetry/poetry · Gi
+│   ├── Add --dry-run option to version command by estyxx · Pull Request #5603 · python-poetry/poetry ·
+│   ├── Add PEP 610 support by sdispater · Pull Request #3876 · python-poetry/poetry · GitHub
+│   ├── Add PyPI registry correctly to pool depending on other sources/Fix source.secondary = true being
+│   ├── Add `--only-root` option to install command, excluding all dependencies. by chadac · Pull Reques
+│   ├── Add a --remove-untracked option to the install command. by PetterS · Pull Request #2172 · python
+│   ├── Add a new line after path info written on the screen by harunyasar · Pull Request #2196 · python
+│   ├── Add docs for multiple maintainers example by gunungpw · Pull Request #5661 · python-poetry/poetr
+│   ├── Add humble retry logic for package downloads by abn · Pull Request #2813 · python-poetry/poetry
+│   ├── Add link to "Dependency specification" in `pyproject.toml` reference by nihaals · Pull Request #
+│   ├── Add link to dependency specification in the add command documentation · Issue #3573 · python-poe
+│   ├── Add lock versioning support by sdispater · Pull Request #2695 · python-poetry/poetry · GitHub
+│   ├── Add log warning if auth fails when accessing repository by TimOrme · Pull Request #2577 · python
+│   ├── Add maximum of workers to config by maxispeicher · Pull Request #3516 · python-poetry/poetry · G
+│   ├── Add missing as_posix() calls by msakai · Pull Request #2582 · python-poetry/poetry · GitHub
+│   ├── Add missing deprecation warning for `--dev` by mkniewallner · Pull Request #6475 · python-poetry
+│   ├── Add missing documentation options and commands by mkniewallner · Pull Request #5664 · python-poe
+│   ├── Add name field reference to PEP 508 by gunungpw · Pull Request #5642 · python-poetry/poetry · Gi
+│   ├── Add output for poetry lock --check by artemrys · Pull Request #5081 · python-poetry/poetry · Git
+│   ├── Add solutions for common errors by sdispater · Pull Request #2396 · python-poetry/poetry · GitHu
+│   ├── Add support for PyPI API tokens by sdispater · Pull Request #1275 · python-poetry/poetry · GitHu
+│   ├── Add support for build scripts without `setup.py` generation in the editable builder by sdispater
+│   ├── Add support for url dependencies by sdispater · Pull Request #1260 · python-poetry/poetry · GitH
+│   ├── Add support for yanked releases and files (PEP-592) by radoering · Pull Request #5841 · python-p
+│   ├── Added canonicalize_name() to console/commands/init.py by evanrittenhouse · Pull Request #5076 ·
+│   ├── Added pip style keyring password lookup as a fallback. by Darsstar · Pull Request #4086 · python
+│   ├── Added virtualenvs.prompt option to config by Secrus · Pull Request #5606 · python-poetry/poetry
+│   ├── All extras by kroeschl · Pull Request #5452 · python-poetry/poetry · GitHub
+│   ├── Allow any file extension for README file by s-spindler · Pull Request #5357 · python-poetry/poet
+│   ├── Allow for empty choice while selecting dependencies by jacobperron · Pull Request #4606 · python
+│   ├── Announcing Poetry 1.2.0 | Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Avoid nested quantifiers with overlapping character space on git url parsing (#1902 by finswimme
+│   ├── Backport fix for mismatching hash check by pietrodn · Pull Request #193 · python-poetry/poetry-c
+│   ├── Backport fixes from master by sdispater · Pull Request #3622 · python-poetry/poetry · GitHub
+│   ├── Backport security fix #3885 for package hashes to 1.1 by pietrodn · Pull Request #4420 · python-
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Better document exact requirement specification by mkniewallner · Pull Request #5874 · python-po
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Bring back error solutions by sdispater · Pull Request #4332 · python-poetry/poetry · GitHub
+│   ├── Bugfix: Empty and Any markers saved to lockfile by JBKahn · Pull Request #1650 · python-poetry/p
+│   ├── Bump to Dulwich 0.20.46 by jelmer · Pull Request #6506 · python-poetry/poetry · GitHub
+│   ├── Changed schema to support url in multi dependencies by djlancelot · Pull Request #2035 · python-
+│   ├── Changes in docs for Issues #4800, #3709, #3573, #2211 and PR #2414 by Secrus · Pull Request #565
+│   ├── Check current python executable version by yokomotod · Pull Request #4520 · python-poetry/poetry
+│   ├── Clarifying `scripts` section in docs by Secrus · Pull Request #5884 · python-poetry/poetry · Git
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Correctly handle spaces in command executable by frostming · Pull Request #1774 · python-poetry/
+│   ├── Cover edge case when environment is being created with empty project name by Secrus · Pull Reque
+│   ├── Csv fixes by dimbleby · Pull Request #5836 · python-poetry/poetry · GitHub
+│   ├── Dependency groups by sdispater · Pull Request #4260 · python-poetry/poetry · GitHub
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── Display better messages on legacy repo HTTP errors by dan-hipschman-od · Pull Request #2459 · py
+│   ├── Display chosen repository name, not always PyPI, in publish command by ariebovenberg · Pull Requ
+│   ├── Display logging messages from poetry-core when building by sdispater · Pull Request #2715 · pyth
+│   ├── Do not raise error if package is already in pyproject.toml on poetry add by finswimmer · Pull Re
+│   ├── Do not write PEP610 URL reference for cached packages installed from … by radoering · Pull Reque
+│   ├── Document dependency specficiation extras by lann · Pull Request #2414 · python-poetry/poetry · G
+│   ├── Documentation improvement for issue #4844 by ttamg · Pull Request #4847 · python-poetry/poetry ·
+│   ├── Documented the use of the "subdirectory" parameter by AKuederle · Pull Request #5949 · python-po
+│   ├── Don't render all releases on version specific JSON pages by dstufft · Pull Request #11775 · pypi
+│   ├── Drop poetry's dependency on pip and setuptools in project virtual environment by abn · Pull Requ
+│   ├── Emit export errors to stderr to prevent invalid output by colindean · Pull Request #4110 · pytho
+│   ├── Ensure `--dry-run` option doesn't update `poetry.lock` for `add`, `update` and `remove` by mknie
+│   ├── Ensure tasks are cancelled when executor is shut down by sdispater · Pull Request #2656 · python
+│   ├── Ensure vcs dependencies preserve editable flag by abn · Pull Request #3264 · python-poetry/poetr
+│   ├── Exclude .venv from Time Machine backups by probablykasper · Pull Request #4599 · python-poetry/p
+│   ├── Export fails to take proper care of extra in deps with more than one path · Issue #5537 · python
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Feature/export without urls by DustinMoriarty · Pull Request #4763 · python-poetry/poetry · GitH
+│   ├── Fix #1791: Load repository URL from config by thejcannon · Pull Request #2061 · python-poetry/po
+│   ├── Fix #2597 by checking that the directory exists by PetterS · Pull Request #2602 · python-poetry/
+│   ├── Fix AttributeError on export by finswimmer · Pull Request #3310 · python-poetry/poetry · GitHub
+│   ├── Fix VCS when git is not in PATH by adisbladis · Pull Request #2105 · python-poetry/poetry · GitH
+│   ├── Fix an infinite loop in the solver by dimbleby · Pull Request #6178 · python-poetry/poetry · Git
+│   ├── Fix and improve handling of extras while resolving dependencies by sdispater · Pull Request #288
+│   ├── Fix building distribution of PEP 561 stub-only packages by hoefling · Pull Request #2000 · pytho
+│   ├── Fix cases where poetry should fall back to pep517 metadata parsing by finswimmer · Pull Request
+│   ├── Fix compatibility check for lock files by sdispater · Pull Request #2717 · python-poetry/poetry
+│   ├── Fix dependency overrides for packages with multiple duplicate dependencies by sdispater · Pull R
+│   ├── Fix downloading packages from Simplepypi by leftys · Pull Request #1851 · python-poetry/poetry ·
+│   ├── Fix dropped markers in dependency walk by dimbleby · Pull Request #4686 · python-poetry/poetry ·
+│   ├── Fix env use behavior with the virtualenvs.in-project setting by sdispater · Pull Request #1682 ·
+│   ├── Fix error in "poetry config" when Poetry is not configured in pyproject.toml (3084) by estyxx ·
+│   ├── Fix errors on Python 2.7 when a file could not be downloaded by sdispater · Pull Request #2709 ·
+│   ├── Fix errors when using the --help option by sdispater · Pull Request #1910 · python-poetry/poetry
+│   ├── Fix executor deadlock when IO doesn't support non-ascii characters by ento · Pull Request #2721
+│   ├── Fix fallback to other interpreters when specifying a patchlevel. by jaharkes · Pull Request #347
+│   ├── Fix flicker when displaying executor operations by sdispater · Pull Request #5556 · python-poetr
+│   ├── Fix for "poetry lock --no-update" so that dependencies with extras are not updated unnecessarily
+│   ├── Fix for 3.6 with locale not set by brandonchinn178 · Pull Request #4038 · python-poetry/poetry ·
+│   ├── Fix for git subdirectories by ashnair1 · Pull Request #5172 · python-poetry/poetry · GitHub
+│   ├── Fix for tomlkit regression resulting in inconsistent line endings by radoering · Pull Request #5
+│   ├── Fix git dependencies by simonepri · Pull Request #2349 · python-poetry/poetry · GitHub
+│   ├── Fix handling dependencies parameter during interactive init (#711) by finswimmer · Pull Request
+│   ├── Fix handling of dependency markers with python precision >= 3 by sdispater · Pull Request #2526
+│   ├── Fix handling of forward slashes and url encoding in credentials by lubert · Pull Request #1911 ·
+│   ├── Fix handling of markers when resolving by sdispater · Pull Request #2342 · python-poetry/poetry
+│   ├── Fix how repository credentials are retrieved from env vars by sdispater · Pull Request #1909 · p
+│   ├── Fix inconsistencies with release scripts by abn · Pull Request #2941 · python-poetry/poetry · Gi
+│   ├── Fix incorrect import of the Dependency class by sdispater · Pull Request #3696 · python-poetry/p
+│   ├── Fix incorrect resolution errors for dependencies with looser python constraints by sdispater · P
+│   ├── Fix issue when PATH is missing in os.environ by exhuma · Pull Request #3159 · python-poetry/poet
+│   ├── Fix legacy repositories information not being set on packages by sdispater · Pull Request #2484
+│   ├── Fix legacy repositories packages being continuously updated by sdispater · Pull Request #2525 ·
+│   ├── Fix locked information for path, url and VCS dependencies by sdispater · Pull Request #4202 · py
+│   ├── Fix misuse of pretty_constraint, fix downstream test (poetry-core) by radoering · Pull Request #
+│   ├── Fix non-compliant Git URL matching by amarshall · Pull Request #2018 · python-poetry/poetry · Gi
+│   ├── Fix pypi token keyrinerror (#5189) by John15321 · Pull Request #5911 · python-poetry/poetry · Gi
+│   ├── Fix resolution of packages with missing required extras by sdispater · Pull Request #3035 · pyth
+│   ├── Fix resolution of path, url and VCS dependencies by sdispater · Pull Request #2398 · python-poet
+│   ├── Fix root package and directory dependency editable installation by sdispater · Pull Request #250
+│   ├── Fix running console scripts of editable dependencies on Windows by kevincon · Pull Request #3339
+│   ├── Fix system environment detection by sdispater · Pull Request #4329 · python-poetry/poetry · GitH
+│   ├── Fix system environment detection by sdispater · Pull Request #4406 · python-poetry/poetry · GitH
+│   ├── Fix the detection of the system environment with custom installer by sdispater · Pull Request #4
+│   ├── Fix the lock content hash not being updated with the add/remove commands by sdispater · Pull Req
+│   ├── Fix the python patch version retrieval when passing an executable by sdispater · Pull Request #1
+│   ├── Fix the show command by sdispater · Pull Request #2967 · python-poetry/poetry · GitHub
+│   ├── Fix the url used for installation when fallbacking on PyPI by sdispater · Pull Request #2099 · p
+│   ├── Fix the wrong key and URL of adding publishable repositories in documetation by hktkzyx · Pull R
+│   ├── Fix typo in #3713 by s0600204 · Pull Request #4482 · python-poetry/poetry · GitHub
+│   ├── Fix vendor package as installed package (#1883) by trim21 · Pull Request #1981 · python-poetry/p
+│   ├── Fix: allow whitespace in list of extras for a package by finswimmer · Pull Request #2985 · pytho
+│   ├── Fix: conda environment is detected as broken (#4566) by finswimmer · Pull Request #5007 · python
+│   ├── Fix: lock no update drops packages by radoering · Pull Request #5435 · python-poetry/poetry · Gi
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── GitHub - sdispater/tomlkit: Style-preserving TOML library for Python
+│   ├── Handle (*) constraint for pre-release only packages by abn · Pull Request #2821 · python-poetry/
+│   ├── Handle circular dependencies when getting extras by abn · Pull Request #2787 · python-poetry/poe
+│   ├── Handle connection errors when publishing by abn · Pull Request #2285 · python-poetry/poetry · Gi
+│   ├── Handle locked pip version on Windows by radoering · Pull Request #6430 · python-poetry/poetry ·
+│   ├── Handle nested wildcards in package includes correctly. Fixes: #1379. by kasteph · Pull Request #
+│   ├── Handle non-editable packages with pth files by abn · Pull Request #3210 · python-poetry/poetry ·
+│   ├── Handle removal of vcs namespace package dependency gracefully by abn · Pull Request #2239 · pyth
+│   ├── Handle whitespaces for PEP-440 constraints by abn · Pull Request #2347 · python-poetry/poetry ·
+│   ├── Handles name == None case (re: issue #4311, #3628) by aalok-sathe · Pull Request #4702 · python-
+│   ├── Help · PyPI (#apitoken)
+│   ├── Ignore combinations of overrides whose intersection of markers is empty by radoering · Pull Requ
+│   ├── Ignore dependency if not needed by frostming · Pull Request #1789 · python-poetry/poetry · GitHu
+│   ├── Ignore warnings when executing Python scripts by sdispater · Pull Request #4592 · python-poetry/
+│   ├── Imaclean74 · GitHub
+│   ├── Implement a new bootstrapping method by sdispater · Pull Request #3706 · python-poetry/poetry ·
+│   ├── Implement a plugin system by sdispater · Pull Request #3733 · python-poetry/poetry · GitHub
+│   ├── Improve PEP-440 support for versions by abn · Pull Request #140 · python-poetry/poetry-core · Gi
+│   ├── Improve UI by sdispater · Pull Request #2230 · python-poetry/poetry · GitHub
+│   ├── Improve dependency resolution and markers handling by sdispater · Pull Request #2361 · python-po
+│   ├── Improve detection of installed packages by sdispater · Pull Request #1786 · python-poetry/poetry
+│   ├── Improve detection of installed packages in an environment by abn · Pull Request #2722 · python-p
+│   ├── Improve editable installs by sdispater · Pull Request #2360 · python-poetry/poetry · GitHub
+│   ├── Improve package operations management by sdispater · Pull Request #4336 · python-poetry/poetry ·
+│   ├── Improve password management by sdispater · Pull Request #1788 · python-poetry/poetry · GitHub
+│   ├── Improve the `self update` command and environment detection by sdispater · Pull Request #4192 ·
+│   ├── Improve the add and init commands by sdispater · Pull Request #1221 · python-poetry/poetry · Git
+│   ├── Improve the error message displayed on Python requirements conflict by sdispater · Pull Request
+│   ├── Improve the site-packages directory detection by sdispater · Pull Request #1683 · python-poetry/
+│   ├── Improve upload error output by theunkn0wn1 · Pull Request #6043 · python-poetry/poetry · GitHub
+│   ├── Improved support for system environment by abn · Pull Request #3107 · python-poetry/poetry · Git
+│   ├── Incorrect requirements.txt formatting in poetry export  · Issue #4575 · python-poetry/poetry · G
+│   ├── Install removes dependencies of non-installed extras · Issue #6229 · python-poetry/poetry · GitH
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issue #3483 Add cert retrieval for requests by ITProKyle · Pull Request #5320 · python-poetry/po
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Keep empty in-project venv dir when recreating venv to allow for docker volumes by TheButlah · P
+│   ├── Lazy Keyring intialization for PasswordManager by k4nar · Pull Request #1892 · python-poetry/poe
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Lock VCS dev-dependencies as category "dev" by sisp · Pull Request #1725 · python-poetry/poetry
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── MarcDufresne (Marc-André Dufresne) · GitHub
+│   ├── Markers not correctly assigned to nested dependencies · Issue #3511 · python-poetry/poetry · Git
+│   ├── Merge any marker constraints into constraints with specific markers by radoering · Pull Request
+│   ├── Migrate to the new version of Cleo by sdispater · Pull Request #3618 · python-poetry/poetry · Gi
+│   ├── Misc. changes to support upcoming changes to poetry-core by abn · Pull Request #4604 · python-po
+│   ├── Multiple fixes for repository http authentication by abn · Pull Request #2990 · python-poetry/po
+│   ├── New and faster installer implementation by sdispater · Pull Request #2595 · python-poetry/poetry
+│   ├── Normalize author name unicode before matching by raphaelyancey · Pull Request #2006 · python-poe
+│   ├── Normalize path before hashing ... by radoering · Pull Request #4813 · python-poetry/poetry · Git
+│   ├── PEP 610 – Recording the Direct URL Origin of installed distributions | peps.python.org
+│   ├── PEP610: handle optional vcs_info.requested_version by abn · Pull Request #5274 · python-poetry/p
+│   ├── POETRY_EXPERIMENTAL_NEW_INSTALLER is interpreted as a boolean by AWhetter · Pull Request #3811 ·
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#010---2018-02-28)
+│   ├── Poetry - Python dependency management and packaging made easy (#0100---2018-05-28)
+│   ├── Poetry - Python dependency management and packaging made easy (#0101---2018-05-28)
+│   ├── Poetry - Python dependency management and packaging made easy (#0102---2018-05-31)
+│   ├── Poetry - Python dependency management and packaging made easy (#0103---2018-06-04)
+│   ├── Poetry - Python dependency management and packaging made easy (#0110---2018-06-28)
+│   ├── Poetry - Python dependency management and packaging made easy (#0111---2018-06-29)
+│   ├── Poetry - Python dependency management and packaging made easy (#0112---2018-07-03)
+│   ├── Poetry - Python dependency management and packaging made easy (#0113---2018-07-26)
+│   ├── Poetry - Python dependency management and packaging made easy (#0114---2018-07-30)
+│   ├── Poetry - Python dependency management and packaging made easy (#0115---2018-09-04)
+│   ├── Poetry - Python dependency management and packaging made easy (#0120---2018-10-17)
+│   ├── Poetry - Python dependency management and packaging made easy (#0121---2018-10-17)
+│   ├── Poetry - Python dependency management and packaging made easy (#01210---2018-11-22)
+│   ├── Poetry - Python dependency management and packaging made easy (#01211---2019-01-13)
+│   ├── Poetry - Python dependency management and packaging made easy (#01212---2019-04-11)
+│   ├── Poetry - Python dependency management and packaging made easy (#01213---2019-04-26)
+│   ├── Poetry - Python dependency management and packaging made easy (#01214---2019-04-26)
+│   ├── Poetry - Python dependency management and packaging made easy (#01215---2019-05-03)
+│   ├── Poetry - Python dependency management and packaging made easy (#01216---2019-05-17)
+│   ├── Poetry - Python dependency management and packaging made easy (#01217---2019-07-03)
+│   ├── Poetry - Python dependency management and packaging made easy (#0122---2018-10-17)
+│   ├── Poetry - Python dependency management and packaging made easy (#0123---2018-10-18)
+│   ├── Poetry - Python dependency management and packaging made easy (#0124---2018-10-21)
+│   ├── Poetry - Python dependency management and packaging made easy (#0125---2018-10-26)
+│   ├── Poetry - Python dependency management and packaging made easy (#0126---2018-11-05)
+│   ├── Poetry - Python dependency management and packaging made easy (#0127---2018-11-08)
+│   ├── Poetry - Python dependency management and packaging made easy (#0128---2018-11-13)
+│   ├── Poetry - Python dependency management and packaging made easy (#0129---2018-11-19)
+│   ├── Poetry - Python dependency management and packaging made easy (#020---2018-03-01)
+│   ├── Poetry - Python dependency management and packaging made easy (#030---2018-03-05)
+│   ├── Poetry - Python dependency management and packaging made easy (#040---2018-03-08)
+│   ├── Poetry - Python dependency management and packaging made easy (#041---2018-03-08)
+│   ├── Poetry - Python dependency management and packaging made easy (#042---2018-03-10)
+│   ├── Poetry - Python dependency management and packaging made easy (#050---2018-03-14)
+│   ├── Poetry - Python dependency management and packaging made easy (#060---2018-03-16)
+│   ├── Poetry - Python dependency management and packaging made easy (#061---2018-02-18)
+│   ├── Poetry - Python dependency management and packaging made easy (#062---2018-03-19)
+│   ├── Poetry - Python dependency management and packaging made easy (#063---2018-03-20)
+│   ├── Poetry - Python dependency management and packaging made easy (#064---2018-03-21)
+│   ├── Poetry - Python dependency management and packaging made easy (#065---2018-03-22)
+│   ├── Poetry - Python dependency management and packaging made easy (#070---2018-04-04)
+│   ├── Poetry - Python dependency management and packaging made easy (#071---2018-04-05)
+│   ├── Poetry - Python dependency management and packaging made easy (#080---2018-04-13)
+│   ├── Poetry - Python dependency management and packaging made easy (#081---2018-04-13)
+│   ├── Poetry - Python dependency management and packaging made easy (#082---2018-04-14)
+│   ├── Poetry - Python dependency management and packaging made easy (#083---2018-04-16)
+│   ├── Poetry - Python dependency management and packaging made easy (#084---2018-04-18)
+│   ├── Poetry - Python dependency management and packaging made easy (#085---2018-04-19)
+│   ├── Poetry - Python dependency management and packaging made easy (#086---2018-04-30)
+│   ├── Poetry - Python dependency management and packaging made easy (#090---2018-05-07)
+│   ├── Poetry - Python dependency management and packaging made easy (#091---2018-05-18)
+│   ├── Poetry - Python dependency management and packaging made easy (#100---2019-12-12)
+│   ├── Poetry - Python dependency management and packaging made easy (#101---2020-01-10)
+│   ├── Poetry - Python dependency management and packaging made easy (#1010---2020-07-21)
+│   ├── Poetry - Python dependency management and packaging made easy (#102---2020-01-10)
+│   ├── Poetry - Python dependency management and packaging made easy (#103---2020-01-31)
+│   ├── Poetry - Python dependency management and packaging made easy (#104---2020-02-28)
+│   ├── Poetry - Python dependency management and packaging made easy (#105---2020-02-29)
+│   ├── Poetry - Python dependency management and packaging made easy (#106---2020-06-05)
+│   ├── Poetry - Python dependency management and packaging made easy (#107---2020-06-05)
+│   ├── Poetry - Python dependency management and packaging made easy (#108---2020-06-05)
+│   ├── Poetry - Python dependency management and packaging made easy (#109---2020-06-09)
+│   ├── Poetry - Python dependency management and packaging made easy (#110---2020-10-01)
+│   ├── Poetry - Python dependency management and packaging made easy (#110a1---2020-03-27)
+│   ├── Poetry - Python dependency management and packaging made easy (#110a2---2020-06-26)
+│   ├── Poetry - Python dependency management and packaging made easy (#110a3---2020-07-10)
+│   ├── Poetry - Python dependency management and packaging made easy (#110b1---2020-07-24)
+│   ├── Poetry - Python dependency management and packaging made easy (#110b2---2020-07-24)
+│   ├── Poetry - Python dependency management and packaging made easy (#110b3---2020-09-18)
+│   ├── Poetry - Python dependency management and packaging made easy (#110b4---2020-09-23)
+│   ├── Poetry - Python dependency management and packaging made easy (#110rc1---2020-09-25)
+│   ├── Poetry - Python dependency management and packaging made easy (#111---2020-10-05)
+│   ├── Poetry - Python dependency management and packaging made easy (#1110---2021-09-21)
+│   ├── Poetry - Python dependency management and packaging made easy (#1111---2021-10-04)
+│   ├── Poetry - Python dependency management and packaging made easy (#1112---2021-11-27)
+│   ├── Poetry - Python dependency management and packaging made easy (#1113---2022-02-10)
+│   ├── Poetry - Python dependency management and packaging made easy (#1114---2022-07-08)
+│   ├── Poetry - Python dependency management and packaging made easy (#1115---2022-08-22)
+│   ├── Poetry - Python dependency management and packaging made easy (#112---2020-10-06)
+│   ├── Poetry - Python dependency management and packaging made easy (#113---2020-10-14)
+│   ├── Poetry - Python dependency management and packaging made easy (#114---2020-10-23)
+│   ├── Poetry - Python dependency management and packaging made easy (#115---2021-03-03)
+│   ├── Poetry - Python dependency management and packaging made easy (#116---2021-04-14)
+│   ├── Poetry - Python dependency management and packaging made easy (#117---2021-06-25)
+│   ├── Poetry - Python dependency management and packaging made easy (#118---2021-08-19)
+│   ├── Poetry - Python dependency management and packaging made easy (#119---2021-09-18)
+│   ├── Poetry - Python dependency management and packaging made easy (#120---2022-08-31)
+│   ├── Poetry - Python dependency management and packaging made easy (#120a1---2021-05-21)
+│   ├── Poetry - Python dependency management and packaging made easy (#120a2---2021-08-01)
+│   ├── Poetry - Python dependency management and packaging made easy (#120b1---2022-03-17)
+│   ├── Poetry - Python dependency management and packaging made easy (#120b2---2022-06-07)
+│   ├── Poetry - Python dependency management and packaging made easy (#120b3---2022-07-13)
+│   ├── Poetry - Python dependency management and packaging made easy (#120rc1---2022-08-22)
+│   ├── Poetry - Python dependency management and packaging made easy (#120rc2---2022-08-26)
+│   ├── Poetry - Python dependency management and packaging made easy (#121---2022-09-16)
+│   ├── Poetry - Python dependency management and packaging made easy (#added)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-1)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-10)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-11)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-12)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-13)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-14)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-15)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-16)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-17)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-18)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-19)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-2)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-20)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-21)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-22)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-23)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-3)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-4)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-5)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-6)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-7)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-8)
+│   ├── Poetry - Python dependency management and packaging made easy (#added-9)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-1)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-10)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-11)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-12)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-13)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-14)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-15)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-16)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-17)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-18)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-19)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-2)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-20)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-21)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-22)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-23)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-24)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-25)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-26)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-27)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-28)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-29)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-3)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-30)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-31)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-32)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-33)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-34)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-4)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-5)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-6)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-7)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-8)
+│   ├── Poetry - Python dependency management and packaging made easy (#changed-9)
+│   ├── Poetry - Python dependency management and packaging made easy (#changes)
+│   ├── Poetry - Python dependency management and packaging made easy (#docs)
+│   ├── Poetry - Python dependency management and packaging made easy (#docs-1)
+│   ├── Poetry - Python dependency management and packaging made easy (#docs-2)
+│   ├── Poetry - Python dependency management and packaging made easy (#docs-3)
+│   ├── Poetry - Python dependency management and packaging made easy (#docs-4)
+│   ├── Poetry - Python dependency management and packaging made easy (#docs-5)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-1)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-10)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-11)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-12)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-13)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-14)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-15)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-16)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-17)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-18)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-19)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-2)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-20)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-21)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-22)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-23)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-24)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-25)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-26)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-27)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-28)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-29)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-3)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-30)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-31)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-32)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-33)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-34)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-35)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-36)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-37)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-38)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-39)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-4)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-40)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-41)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-42)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-43)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-44)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-45)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-46)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-47)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-48)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-49)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-5)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-50)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-51)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-52)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-53)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-54)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-55)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-56)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-57)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-58)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-59)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-6)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-60)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-61)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-62)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-63)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-64)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-65)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-66)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-67)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-68)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-69)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-7)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-70)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-71)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-72)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-73)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-74)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-75)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-76)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-77)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-78)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-79)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-8)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-80)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-81)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-82)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-83)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-84)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-85)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-86)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-87)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-88)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-89)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-9)
+│   ├── Poetry - Python dependency management and packaging made easy (#fixed-90)
+│   ├── Poetry - Python dependency management and packaging made easy (#improvements)
+│   ├── Properly propagate dependency markers by sdispater · Pull Request #1829 · python-poetry/poetry ·
+│   ├── Provide hints when an invalid license id is input by JJJollyjim · Pull Request #1634 · python-po
+│   ├── Put the complete list of available settings in configuration page · Issue #2211 · python-poetry/
+│   ├── Python 2.7 and 3.5 deprecation by sdispater · Pull Request #2683 · python-poetry/poetry · GitHub
+│   ├── Python Poetry
+│   ├── Refactor export by dimbleby · Pull Request #5156 · python-poetry/poetry · GitHub
+│   ├── Release 0.1.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.10.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.10.1 · python-poetry/poetry · GitHub
+│   ├── Release 0.10.2 · python-poetry/poetry · GitHub
+│   ├── Release 0.10.3 · python-poetry/poetry · GitHub
+│   ├── Release 0.11.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.11.1 · python-poetry/poetry · GitHub
+│   ├── Release 0.11.2 · python-poetry/poetry · GitHub
+│   ├── Release 0.11.3 · python-poetry/poetry · GitHub
+│   ├── Release 0.11.4 · python-poetry/poetry · GitHub
+│   ├── Release 0.11.5 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.1 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.10 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.11 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.12 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.13 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.14 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.15 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.16 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.17 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.2 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.3 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.4 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.5 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.6 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.7 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.8 · python-poetry/poetry · GitHub
+│   ├── Release 0.12.9 · python-poetry/poetry · GitHub
+│   ├── Release 0.2.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.3.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.4.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.4.1 · python-poetry/poetry · GitHub
+│   ├── Release 0.4.2 · python-poetry/poetry · GitHub
+│   ├── Release 0.5.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.6.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.6.1 · python-poetry/poetry · GitHub
+│   ├── Release 0.6.2 · python-poetry/poetry · GitHub
+│   ├── Release 0.6.3 · python-poetry/poetry · GitHub
+│   ├── Release 0.6.4 · python-poetry/poetry · GitHub
+│   ├── Release 0.6.5 · python-poetry/poetry · GitHub
+│   ├── Release 0.7.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.7.1 · python-poetry/poetry · GitHub
+│   ├── Release 0.8.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.8.1 · python-poetry/poetry · GitHub
+│   ├── Release 0.8.2 · python-poetry/poetry · GitHub
+│   ├── Release 0.8.3 · python-poetry/poetry · GitHub
+│   ├── Release 0.8.4 · python-poetry/poetry · GitHub
+│   ├── Release 0.8.5 · python-poetry/poetry · GitHub
+│   ├── Release 0.8.6 · python-poetry/poetry · GitHub
+│   ├── Release 0.9.0 · python-poetry/poetry · GitHub
+│   ├── Release 0.9.1 · python-poetry/poetry · GitHub
+│   ├── Release 1.0.0 · python-poetry/poetry · GitHub
+│   ├── Release 1.0.1 · python-poetry/poetry · GitHub
+│   ├── Release 1.0.10 · python-poetry/poetry · GitHub
+│   ├── Release 1.0.2 · python-poetry/poetry · GitHub
+│   ├── Release 1.0.3 · python-poetry/poetry · GitHub
+│   ├── Release 1.0.4 · python-poetry/poetry · GitHub
+│   ├── Release 1.0.5 · python-poetry/poetry · GitHub
+│   ├── Release 1.0.6 · python-poetry/poetry · GitHub
+│   ├── Release 1.0.7 · python-poetry/poetry · GitHub
+│   ├── Release 1.0.7 · python-poetry/poetry-plugin-export · GitHub
+│   ├── Release 1.0.8 · python-poetry/poetry · GitHub
+│   ├── Release 1.0.9 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.0 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.0a1 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.0a2 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.0a3 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.0b1 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.0b2 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.0b3 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.0b4 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.0rc1 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.1 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.10 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.11 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.12 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.13 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.14 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.15 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.2 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.3 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.4 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.5 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.6 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.7 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.8 · python-poetry/poetry · GitHub
+│   ├── Release 1.1.9 · python-poetry/poetry · GitHub
+│   ├── Release 1.2.0 · python-poetry/poetry · GitHub
+│   ├── Release 1.2.0 · python-poetry/poetry-core · GitHub
+│   ├── Release 1.2.0a1 · python-poetry/poetry · GitHub
+│   ├── Release 1.2.0a2 · python-poetry/poetry · GitHub
+│   ├── Release 1.2.0b1 · python-poetry/poetry · GitHub
+│   ├── Release 1.2.0b2 · python-poetry/poetry · GitHub
+│   ├── Release 1.2.0b3 · python-poetry/poetry · GitHub
+│   ├── Release 1.2.0rc1 · python-poetry/poetry · GitHub
+│   ├── Release 1.2.0rc2 · python-poetry/poetry · GitHub
+│   ├── Release 1.2.1 · python-poetry/poetry · GitHub
+│   ├── Remove all env by DustinMoriarty · Pull Request #3212 · python-poetry/poetry · GitHub
+│   ├── Remove python 2.7/3.5 compatibility code  by abn · Pull Request #3405 · python-poetry/poetry · G
+│   ├── Remove references to `--dev-only` install option by lafrenierejm · Pull Request #5771 · python-p
+│   ├── Remove unhittable code by dimbleby · Pull Request #5889 · python-poetry/poetry · GitHub
+│   ├── Removing setecho(False) for all shells by jmaroeder · Pull Request #1673 · python-poetry/poetry
+│   ├── Rename implicit group "default" to "main" by radoering · Pull Request #5465 · python-poetry/poet
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Resolution speed improvement by jguice · Pull Request #3839 · python-poetry/poetry · GitHub
+│   ├── Resolve cwd using os.path.realpath() when generating environment names by adamgreg · Pull Reques
+│   ├── Resolve symlinks in locker.lock path to real physical paths by spoorn · Pull Request #5850 · pyt
+│   ├── Respect virtualenvs.in-project setting, if .venv is found in project folder by finswimmer · Pull
+│   ├── Revert "create PEP508 compliant dependency string for directory and file dependencies (#1796)" b
+│   ├── Rework completions section in docs by Secrus · Pull Request #5879 · python-poetry/poetry · GitHu
+│   ├── Small poetry init fixes by wieczorek1990 · Pull Request #5946 · python-poetry/poetry · GitHub
+│   ├── Solver fixes by dimbleby · Pull Request #5305 · python-poetry/poetry · GitHub
+│   ├── Solver performance by dimbleby · Pull Request #5335 · python-poetry/poetry · GitHub
+│   ├── Some improvements over `init` command by mkniewallner · Pull Request #5838 · python-poetry/poetr
+│   ├── Sort extras and extras dependencies in lockfile by mkniewallner · Pull Request #6169 · python-po
+│   ├── Standardise on using virtualenv package by abn · Pull Request #2666 · python-poetry/poetry · Git
+│   ├── Support for multiple-constraint direct origin dependencies with same version by radoering · Pull
+│   ├── Support namespace packages with new command and misc. improvements by abn · Pull Request #2768 ·
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── Unclear that default setting of virtualenvs.in-project means that venvs are created in cache-dir
+│   ├── Unknown
+│   ├── Update Windows install instructions to target the py launcher by johnthagen · Pull Request #5618
+│   ├── Update installation and update docs by Secrus · Pull Request #5857 · python-poetry/poetry · GitH
+│   ├── Update shell.py to support tcsh by JnyJny · Pull Request #2583 · python-poetry/poetry · GitHub
+│   ├── Update the self update command to handle future versions by sdispater · Pull Request #2429 · pyt
+│   ├── Update uploader.py by willfrey · Pull Request #4580 · python-poetry/poetry · GitHub
+│   ├── Upgrade poetry core to 1.0.2 (1.1) by sdispater · Pull Request #3677 · python-poetry/poetry · Gi
+│   ├── Upgrade poetry-core by sdispater · Pull Request #2968 · python-poetry/poetry · GitHub
+│   ├── Use `safe_extra` to standardize extra dependencies by deepyaman · Pull Request #4122 · python-po
+│   ├── Use a lightweight core library by sdispater · Pull Request #2212 · python-poetry/poetry · GitHub
+│   ├── Use dulwich to fetch global and local git config by fredrikaverpil · Pull Request #5935 · python
+│   ├── Use locally cached wheels during install by dimbleby · Pull Request #5871 · python-poetry/poetry
+│   ├── Use proper main python constraint when resolving for installation by sdispater · Pull Request #2
+│   ├── VCS ignored files with `poetry build` · Issue #4800 · python-poetry/poetry · GitHub
+│   ├── Warning about deprecated python version should go to stderr by finswimmer · Pull Request #3131 ·
+│   ├── Write errors and warnings to stderr (instead of stdout) by radoering · Pull Request #5179 · pyth
+│   ├── [1.0] Automatically add Python 3.10 classifiers by sdispater · Pull Request #215 · python-poetry
+│   ├── [1.0] Ensure Git parameters are safe by sdispater · Pull Request #203 · python-poetry/poetry-cor
+│   ├── [1.0] Ensure the full path to git is used on Windows by sdispater · Pull Request #205 · python-p
+│   ├── [1.0] Ensure the right executable is used when checking VCS by sdispater · Pull Request #213 · p
+│   ├── [1.0] Fix an error when handling single digit Python markers by sdispater · Pull Request #156 ·
+│   ├── [1.0] Fix dependency markers not being copied in with_constraint() by sdispater · Pull Request #
+│   ├── [1.0] Fix the evaluation of `in/not in` markers by sdispater · Pull Request #189 · python-poetry
+│   ├── [1.1] Ensure all hash types are checked by sdispater · Pull Request #4529 · python-poetry/poetry
+│   ├── [1.1] Fix archive hash generation by sdispater · Pull Request #4444 · python-poetry/poetry · Git
+│   ├── [1.1] Fix incorrect package being selected with transitive markers by sdispater · Pull Request #
+│   ├── [1.1] Fix locked VCS dependencies always being updated by sdispater · Pull Request #3947 · pytho
+│   ├── [1.1] Fix locked information for path, url and VCS dependencies by sdispater · Pull Request #420
+│   ├── [1.1] Fix system env detection by sdispater · Pull Request #4407 · python-poetry/poetry · GitHub
+│   ├── [1.1] Fix system environment detection by sdispater · Pull Request #4330 · python-poetry/poetry
+│   ├── [1.1] Fix system environment detection by sdispater · Pull Request #4507 · python-poetry/poetry
+│   ├── [1.1] Fixed python_version for Python >= 3.10 by sdispater · Pull Request #4387 · python-poetry/
+│   ├── [1.1] Sort extras and extras dependencies in lock file by mkniewallner · Pull Request #6207 · py
+│   ├── [1.1] feat: fallback to gather metadata via pep517 if reading as Poetry project raises RuntimeEr
+│   ├── [1.1] fix(repositories): use `urls` for versioned JSON API instead of `releases` by mkniewallner
+│   ├── [1.1] fix: Broken cache on Windows by serverwentdown · Pull Request #4549 · python-poetry/poetry
+│   ├── [1.2] Backported changes from PR#6234 by Secrus · Pull Request #6235 · python-poetry/poetry · Gi
+│   ├── [1.2] Ensure repository deletion is consistent by neersighted · Pull Request #6231 · python-poet
+│   ├── [1.2] doc(configuration): improve documentation by mkniewallner · Pull Request #6255 · python-po
+│   ├── [1.2] docs: `--only` no longer skips project's package installation by finswimmer · Pull Request
+│   ├── [1.2] docs: added note about the difference between groups and extras by finswimmer · Pull Reque
+│   ├── [1.2] fix: skip configure env for SelfCommand by finswimmer · Pull Request #6226 · python-poetry
+│   ├── [1.2] repository: keep (uncanonicalized) pretty_name by neersighted · Pull Request #6243 · pytho
+│   ├── [Bugfix] Moved access to first element to after the length check by Qu4tro · Pull Request #2265
+│   ├── [Docs / Basic Usage] Use PowerShell on Windows by MinchinWeb · Pull Request #3978 · python-poetr
+│   ├── [bug] script entry point import path by akeeman · Pull Request #3214 · python-poetry/poetry · Gi
+│   ├── [document] Mention poetry.toml by majiang · Pull Request #5492 · python-poetry/poetry · GitHub
+│   ├── `--local` option missing from `config` command description in docs. · Issue #5623 · python-poetr
+│   ├── `poetry lock --no-update` updates dependencies if custom source specified · Issue #6335 · python
+│   ├── `poetry update --dry-run` modifies poetry.lock · Issue #3766 · python-poetry/poetry · GitHub
+│   ├── add --skip-existing to publish by davidszotten · Pull Request #2812 · python-poetry/poetry · Git
+│   ├── add `--why` option to `poetry show` by tgolsson · Pull Request #5444 · python-poetry/poetry · Gi
+│   ├── add config option to force `--always-copy` parameter for virtualenv by finswimmer · Pull Request
+│   ├── add initial support for single page repositories (sources) by abn · Pull Request #5517 · python-
+│   ├── add progress to `download_file` if in Indicator context by tgolsson · Pull Request #5451 · pytho
+│   ├── add timeouts to all requests by dimbleby · Pull Request #5881 · python-poetry/poetry · GitHub
+│   ├── adds better windows shell support by bmarroquin · Pull Request #5053 · python-poetry/poetry · Gi
+│   ├── allow use of not-embedded pip by dimbleby · Pull Request #6062 · python-poetry/poetry · GitHub
+│   ├── application: set global log handlers by abn · Pull Request #5503 · python-poetry/poetry · GitHub
+│   ├── asodeur (Andreas Sodeur) · GitHub
+│   ├── avoid tomlkit versions with memory leak by radoering · Pull Request #6160 · python-poetry/poetry
+│   ├── bertjwregeer (Bert JW Regeer) · GitHub
+│   ├── bradsbrown (Brad Brown) · GitHub
+│   ├── build.script: use build environment for execution by abn · Pull Request #5401 · python-poetry/po
+│   ├── build: ensure build uses project environment by abn · Pull Request #3056 · python-poetry/poetry
+│   ├── cauebs (Cauê Baasch de Souza) · GitHub
+│   ├── ccosby (Chris Cosby) · GitHub
+│   ├── cherry-pick PR #3406 for v1.1 by jstriebel · Pull Request #4241 · python-poetry/poetry · GitHub
+│   ├── clarify documentation for `--why` command by tgolsson · Pull Request #5653 · python-poetry/poetr
+│   ├── cli: add global --no-cache option by abn · Pull Request #5519 · python-poetry/poetry · GitHub
+│   ├── command/add: introduce --editable option by abn · Pull Request #3940 · python-poetry/poetry · Gi
+│   ├── config: add support for installer.parallel by abn · Pull Request #3088 · python-poetry/poetry ·
+│   ├── config: allow bool values for repo cert by abn · Pull Request #5719 · python-poetry/poetry · Git
+│   ├── config: introduce `installer.no-binary` by abn · Pull Request #5609 · python-poetry/poetry · Git
+│   ├── config: rework eval order and respect env vars by abn · Pull Request #5672 · python-poetry/poetr
+│   ├── connorbrinton (Connor Brinton) · GitHub
+│   ├── create PEP508 compliant dependency string for directory and file dependencies by finswimmer · Pu
+│   ├── docs(faq): show tox config for different use cases by finswimmer · Pull Request #6026 · python-p
+│   ├── docs: Add paragraph about @ operator by Secrus · Pull Request #5822 · python-poetry/poetry · Git
+│   ├── docs: Add warning about saving credentials by Secrus · Pull Request #5726 · python-poetry/poetry
+│   ├── docs: Improve contributing docs by juhoautio · Pull Request #5708 · python-poetry/poetry · GitHu
+│   ├── docs: add `--local` option in `config` by tal66 · Pull Request #5629 · python-poetry/poetry · Gi
+│   ├── docs: add information on git and http-basic auth by abn · Pull Request #5578 · python-poetry/poe
+│   ├── docs: added ci recommendations by finswimmer · Pull Request #6345 · python-poetry/poetry · GitHu
+│   ├── docs: added note about `pre-commit autoupdate` by finswimmer · Pull Request #6497 · python-poetr
+│   ├── docs: fix example for --with option combined with --without by morpser · Pull Request #6318 · py
+│   ├── docs: improved description of `virtualenvs.create` option by finswimmer · Pull Request #6460 · p
+│   ├── docs: mention how to add a git dependency with a subdirectory by radoering · Pull Request #6218
+│   ├── docs: remove ambiguity about pep440 and semver by abn · Pull Request #5576 · python-poetry/poetr
+│   ├── docs: update configuration folder for macOS by sadikkuzu · Pull Request #6395 · python-poetry/po
+│   ├── don't export unwanted extras by dimbleby · Pull Request #5819 · python-poetry/poetry · GitHub
+│   ├── ensure provider respects subdirectory when merging and imrove subdirectory support for vcs deps
+│   ├── ensure setup.py editable builds do not use pep517 by abn · Pull Request #5590 · python-poetry/po
+│   ├── env/run: ensure all args are quoted as required by abn · Pull Request #3015 · python-poetry/poet
+│   ├── env: do not modify os.environ by abn · Pull Request #3253 · python-poetry/poetry · GitHub
+│   ├── every Repository is named by dimbleby · Pull Request #5910 · python-poetry/poetry · GitHub
+│   ├── executor: execute parallel unsafe ops serially by abn · Pull Request #3099 · python-poetry/poetr
+│   ├── executor: fix incorrect return value by abn · Pull Request #2981 · python-poetry/poetry · GitHub
+│   ├── exit with callable return code in generated script by jouve · Pull Request #4456 · python-poetry
+│   ├── export: fix handling of nested git dependencies by abn · Pull Request #3100 · python-poetry/poet
+│   ├── export: replace in-tree implementation with poetry-plugin-export by abn · Pull Request #5413 · p
+│   ├── exporter: handle dev extras correctly by abn · Pull Request #3024 · python-poetry/poetry · GitHu
+│   ├── exporter: prepend file for local dependencies by maxispeicher · Pull Request #3121 · python-poet
+│   ├── exporting packages with features by dimbleby · Pull Request #5688 · python-poetry/poetry · GitHu
+│   ├── feat!: remove deprecated CLI options by finswimmer · Pull Request #6210 · python-poetry/poetry ·
+│   ├── feat(shell_support): add nushell by efugier · Pull Request #6063 · python-poetry/poetry · GitHub
+│   ├── feat: fallback to gather metadata via pep517 if reading as Poetry project raises RuntimeError by
+│   ├── feature(virtualenv): add 'system-site-packages' option by vlad0337187 · Pull Request #3711 · pyt
+│   ├── fix (#2038): "Call" object has no attribute "id" by finswimmer · Pull Request #2041 · python-poe
+│   ├── fix (git.py): git url's can now contain longer path names (#1746) by finswimmer · Pull Request #
+│   ├── fix (setup_reader): parse arguments when setuptools.setup() is used (#1761) by finswimmer · Pull
+│   ├── fix (utils.patterns): recognize one digit version in filename by finswimmer · Pull Request #3338
+│   ├── fix incorrect version selector constraint by abn · Pull Request #5500 · python-poetry/poetry · G
+│   ├── fix virtualenv constraint (PEP 440 compliant) by radoering · Pull Request #6402 · python-poetry/
+│   ├── fix(`cache clear`): default response to `True` by branchvincent · Pull Request #6338 · python-po
+│   ├── fix(cache clear): normalize package name by radoering · Pull Request #6537 · python-poetry/poetr
+│   ├── fix(config): expand `~` in virtualenvs.path by branchvincent · Pull Request #5848 · python-poetr
+│   ├── fix(docs): add missing venv path segment to paths used by install.python-poetry.org by neersight
+│   ├── fix(git): get commit sha of git commit from annotated tags by jrmlhermitte · Pull Request #1948
+│   ├── fix(repositories): use `urls` for versioned JSON API instead of `releases` by mkniewallner · Pul
+│   ├── fix(show): handle missing lockfile by branchvincent · Pull Request #5242 · python-poetry/poetry
+│   ├── fix(utils.env): import cli_run from virtualenv by finswimmer · Pull Request #2096 · python-poetr
+│   ├── fix: Broken cache on Windows by serverwentdown · Pull Request #4531 · python-poetry/poetry · Git
+│   ├── fix: Gracefully handle read-only sdists by epage · Pull Request #1140 · python-poetry/poetry · G
+│   ├── fix: Use importlib to invoke packaging.tags in Env by neersighted · Pull Request #4749 · python-
+│   ├── fix: correct parsing of wheel version with regex. by edwardgeorge · Pull Request #1932 · python-
+│   ├── fix: create path dependencies relative to package rather than lockfile (#4245) by md384 · Pull R
+│   ├── fix: don't exclude files that are explicit included in wheel (#1336) by finswimmer · Pull Reques
+│   ├── fix: don't export local file dependency as editable (#897) by finswimmer · Pull Request #1840 ·
+│   ├── fix: exclude subpackage from `setup.py` if `__init__.py` is excluded (#1009) by finswimmer · Pul
+│   ├── fix: fix venv paths redirected by Python from MS Store by finswimmer · Pull Request #5931 · pyth
+│   ├── fix: fixed experimental.system-git-client reported as unknown setting by finswimmer · Pull Reque
+│   ├── fix: only consider package links for sdist and bdist_wheels by finswimmer · Pull Request #5767 ·
+│   ├── fix: performance regression when parsing links from legacy repositories by radoering · Pull Requ
+│   ├── fix: poetry-core>=1.1.0 is needed as build-system requirement by finswimmer · Pull Request #6509
+│   ├── fix: set `naive=True` when trying to get poetry environment on update (Port) by finswimmer · Pul
+│   ├── fix: set `naive=True` when trying to get poetry environment on update by finswimmer · Pull Reque
+│   ├── fixes the instructions to enable autocompletion in zsh by nbro10 · Pull Request #5859 · python-p
+│   ├── force recreation of venv if it is not sane (#286) by finswimmer · Pull Request #1797 · python-po
+│   ├── get fullpath of given python executable when activating env by finswimmer · Pull Request #5086 ·
+│   ├── get_requires_for_build_wheel must return additional build requirements and not dependencies (#16
+│   ├── get_vcs starts searching git folder from tmp dir instead of project (#1946) by finswimmer · Pull
+│   ├── greysteil (Grey Baker) · GitHub
+│   ├── gtors (Andrey Torsunov) · GitHub
+│   ├── handle poetry 1.1 lock content hash by abn · Pull Request #5458 · python-poetry/poetry · GitHub
+│   ├── handle poetry init non-interactive dependencies by rotu · Pull Request #2899 · python-poetry/poe
+│   ├── improve http request handling for sources and support multiple paths on same netloc by abn · Pul
+│   ├── info: cache get metadata from pep517 by abn · Pull Request #5601 · python-poetry/poetry · GitHub
+│   ├── info: enable PEP 517 fallback builds by default by abn · Pull Request #2810 · python-poetry/poet
+│   ├── info: enhance local path poetry project support by abn · Pull Request #3105 · python-poetry/poet
+│   ├── init: handle pyproject exceptions for existing file by abn · Pull Request #3076 · python-poetry
+│   ├── inspection: add each extra package as a dependency by abn · Pull Request #3147 · python-poetry/p
+│   ├── inspection: improve package info error message by abn · Pull Request #2997 · python-poetry/poetr
+│   ├── inspection: use pep517 metadata build by abn · Pull Request #2632 · python-poetry/poetry · GitHu
+│   ├── install: skip unsupported binary distributions by abn · Pull Request #3058 · python-poetry/poetr
+│   ├── installer: use locked version of vcs dependency with extras instead of latest by radoering · Pul
+│   ├── list .venv when it exists by frostming · Pull Request #1762 · python-poetry/poetry · GitHub
+│   ├── lock: allow for no-update refresh of lock files by abn · Pull Request #3034 · python-poetry/poet
+│   ├── locker: allow project dependencies to be retrieved by abn · Pull Request #3002 · python-poetry/p
+│   ├── locker: do not assign unrelated filenames/hashes to direct origin dependencies by radoering · Pu
+│   ├── locker: handle cyclic dependencies during walk by abn · Pull Request #3237 · python-poetry/poetr
+│   ├── locker: handle nested extras requirement by abn · Pull Request #3229 · python-poetry/poetry · Gi
+│   ├── locker: move export logic into locker for reuse by abn · Pull Request #3119 · python-poetry/poet
+│   ├── locker: sort by name and version so that multiple versions of the sam… by radoering · Pull Reque
+│   ├── make no-pip and no-setuptools config explicit by abn · Pull Request #5455 · python-poetry/poetry
+│   ├── masonry: write PEP 610 metadata for editable builds by abn · Pull Request #5703 · python-poetry/
+│   ├── misc. improvements to group filtering logic and related options by abn · Pull Request #5338 · py
+│   ├── mixology: choose direct ref deps when merging by abn · Pull Request #5654 · python-poetry/poetry
+│   ├── move export code into export plugin by radoering · Pull Request #6128 · python-poetry/poetry · G
+│   ├── mpanarin (Mykhailo Panarin) · GitHub
+│   ├── not every GroupCommand needs to be an EnvCommand by dimbleby · Pull Request #6282 · python-poetr
+│   ├── ojii (Jonas Obrist) · GitHub
+│   ├── package: do not default to develop by abn · Pull Request #98 · python-poetry/poetry-core · GitHu
+│   ├── poetry init uses existing pyproject.toml if possible by finswimmer · Pull Request #2448 · python
+│   ├── poetry remove --dry-run modifies poetry.lock · Issue #3666 · python-poetry/poetry · GitHub
+│   ├── poetry show <package> now also shows which packages depend on it by snejus · Pull Request #2351
+│   ├── pool: ensure sources are prioritised over PyPI by abn · Pull Request #3251 · python-poetry/poetr
+│   ├── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+│   ├── provider: allow fallback to installed packages by abn · Pull Request #5704 · python-poetry/poetr
+│   ├── provider: ensure download dest file is a string by abn · Pull Request #2954 · python-poetry/poet
+│   ├── provider: ensure ony activated extras are used by abn · Pull Request #3046 · python-poetry/poetr
+│   ├── provider: merge duplicate dependencies by marker (avoid unnecessary solver failures) by radoerin
+│   ├── publish: ensure config url is preferred by abn · Pull Request #3047 · python-poetry/poetry · Git
+│   ├── publish: print on failure, simplify logic by hauntsaninja · Pull Request #3549 · python-poetry/p
+│   ├── pypi: do not raise exception on 404 by abn · Pull Request #5698 · python-poetry/poetry · GitHub
+│   ├── pyproject: Drop python 3.6 by tony · Pull Request #5055 · python-poetry/poetry · GitHub
+│   ├── radix (Christopher Armstrong) · GitHub
+│   ├── refactor dependency specification parsing logic by abn · Pull Request #5554 · python-poetry/poet
+│   ├── remove 'm' and 'd' ABI tags for Python 3.8 wheels by koehlma · Pull Request #2121 · python-poetr
+│   ├── remove pipenv comparison by dimbleby · Pull Request #5561 · python-poetry/poetry · GitHub
+│   ├── remove redundant logging handlers by dimbleby · Pull Request #5890 · python-poetry/poetry · GitH
+│   ├── replace `poetry plugin` commands with more generic `poetry self` commands by abn · Pull Request
+│   ├── replace deprecated pep517.build by build by finswimmer · Pull Request #5155 · python-poetry/poet
+│   ├── replace existing dependency when adding dependency with version constraint by finswimmer · Pull
+│   ├── replace git command use with dulwich by abn · Pull Request #5428 · python-poetry/poetry · GitHub
+│   ├── repo: handle invalid distributions gracefully by abn · Pull Request #5645 · python-poetry/poetry
+│   ├── repos: configure source for credential lookup by abn · Pull Request #5563 · python-poetry/poetry
+│   ├── repos: ensure wheel python constraints are merged by abn · Pull Request #5616 · python-poetry/po
+│   ├── respect --no-cache at poetry install by dimbleby · Pull Request #6479 · python-poetry/poetry · G
+│   ├── revert #5770, provide new fix by dimbleby · Pull Request #6058 · python-poetry/poetry · GitHub
+│   ├── rodcloutier (Rodrigue Cloutier) · GitHub
+│   ├── show --tree: stop ignoring --no-dev (#3296) by dsch · Pull Request #3992 · python-poetry/poetry
+│   ├── show poetry and poetry-core version in output of `poetry about` by finswimmer · Pull Request #52
+│   ├── show: ignore dependency source when finding package by abn · Pull Request #3117 · python-poetry/
+│   ├── solver: fix special case where a direct origin dependency without extras ... by radoering · Pull
+│   ├── support for POETRY_CONFIG_DIR, POETRY_DATA_DIR and POETRY_CACHE_DIR environment variables by moh
+│   ├── tell git not to use terminal prompts by dimbleby · Pull Request #5880 · python-poetry/poetry · G
+│   ├── tolerate `poetry init` in `/` by dimbleby · Pull Request #5612 · python-poetry/poetry · GitHub
+│   ├── try to find shell via os.environ if detect_shell fail (#2115) by finswimmer · Pull Request #2147
+│   ├── update cachecontrol for python ^3.6 by finswimmer · Pull Request #4831 · python-poetry/poetry ·
+│   ├── update pyproject readme docs by patrick-ryan · Pull Request #5158 · python-poetry/poetry · GitHu
+│   ├── use packaging.utils.canonicalize_name() by dimbleby · Pull Request #6022 · python-poetry/poetry
+│   ├── use pypi package name in pyproject.toml by trim21 · Pull Request #2305 · python-poetry/poetry ·
+│   ├── vlcinsky (Jan Vlčinský) · GitHub
+│   └── when "disabled", keyring uses a "null" keyring and should be unavaila… by lakinwecker · Pull Req
+├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Access denied
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - pypa/pipx: Install and Run Python Applications in Isolated Environments
+│   ├── GitHub - python-poetry/install.python-poetry.org: The official Poetry installation script
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#auto-loaded-recommended)
+│   ├── Poetry - Python dependency management and packaging made easy (#bash)
+│   ├── Poetry - Python dependency management and packaging made easy (#ci-recommendations)
+│   ├── Poetry - Python dependency management and packaging made easy (#enable-tab-completion-for-bash-fish-or-zsh)
+│   ├── Poetry - Python dependency management and packaging made easy (#fish)
+│   ├── Poetry - Python dependency management and packaging made easy (#installation)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-manually)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-with-pipx)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-with-the-official-installer)
+│   ├── Poetry - Python dependency management and packaging made easy (#introduction)
+│   ├── Poetry - Python dependency management and packaging made easy (#lazy-loaded)
+│   ├── Poetry - Python dependency management and packaging made easy (#oh-my-zsh)
+│   ├── Poetry - Python dependency management and packaging made easy (#prezto)
+│   ├── Poetry - Python dependency management and packaging made easy (#system-requirements)
+│   ├── Poetry - Python dependency management and packaging made easy (#zsh)
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── Unknown
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Access denied
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Basic usage | master | Documentation | Poetry - Python dependency management and packaging made
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | master | Documentation | Poetry - Python dependency management and packaging made ea
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | master | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Contributing to Poetry | master | Documentation | Poetry - Python dependency management and pac
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Dependency specification | master | Documentation | Poetry - Python dependency management and p
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── FAQ | master | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - pypa/pipx: Install and Run Python Applications in Isolated Environments
+│   ├── GitHub - python-poetry/install.python-poetry.org: The official Poetry installation script
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Libraries | master | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing dependencies | master | Documentation | Poetry - Python dependency management and pack
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | master | Documentation | Poetry - Python dependency management and pack
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Plugins | master | Documentation | Poetry - Python dependency management and packaging made eas
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#auto-loaded-recommended)
+│   ├── Poetry - Python dependency management and packaging made easy (#bash)
+│   ├── Poetry - Python dependency management and packaging made easy (#ci-recommendations)
+│   ├── Poetry - Python dependency management and packaging made easy (#enable-tab-completion-for-bash-fish-or-zsh)
+│   ├── Poetry - Python dependency management and packaging made easy (#fish)
+│   ├── Poetry - Python dependency management and packaging made easy (#installation)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-manually)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-with-pipx)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-with-the-official-installer)
+│   ├── Poetry - Python dependency management and packaging made easy (#introduction)
+│   ├── Poetry - Python dependency management and packaging made easy (#lazy-loaded)
+│   ├── Poetry - Python dependency management and packaging made easy (#oh-my-zsh)
+│   ├── Poetry - Python dependency management and packaging made easy (#prezto)
+│   ├── Poetry - Python dependency management and packaging made easy (#system-requirements)
+│   ├── Poetry - Python dependency management and packaging made easy (#zsh)
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Repositories | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── The pyproject.toml file | master | Documentation | Poetry - Python dependency management and pa
+│   ├── Unknown
+│   ├── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+│   └── pre-commit hooks | master | Documentation | Poetry - Python dependency management and packaging
+├── Issues · python-poetry/poetry · GitHub
+│   ├── #3543 issue percists: Poetry fails to find latest package on `update` · Issue #6473 · python-poe
+│   ├── About · GitHub
+│   ├── Actions · python-poetry/poetry · GitHub
+│   ├── Add a check after running poetry build · Issue #6539 · python-poetry/poetry · GitHub
+│   ├── Automated migration to groups during `poetry add --group dev`  · Issue #6638 · python-poetry/poe
+│   ├── Clarification on how to use multiple constraint dependencies · Issue #6625 · python-poetry/poetr
+│   ├── Collections · GitHub
+│   ├── Continuous Integration and Continuous Delivery (CI/CD) Fundamentals | GitHub Resources
+│   ├── Customer stories · GitHub
+│   ├── Discussions · python-poetry/poetry · GitHub
+│   ├── Document Poetry dependency schema · Issue #6600 · python-poetry/poetry · GitHub
+│   ├── Enterprise · A smarter way to work together · GitHub
+│   ├── Error Creating New Poetry Environment · Issue #6551 · python-poetry/poetry · GitHub
+│   ├── Features | GitHub · GitHub
+│   ├── Features · Code review · GitHub
+│   ├── Features · Security · GitHub
+│   ├── Features • GitHub Actions · GitHub
+│   ├── Git dependencies' submodules with relative URLs handled incorrectly (regression from 1.1) · Issu
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── GitHub Codespaces · GitHub
+│   ├── GitHub Copilot · Your AI pair programmer · GitHub
+│   ├── GitHub Discussions · The home for developer communities  · GitHub
+│   ├── GitHub Documentation
+│   ├── GitHub Issues · Project planning for developers · GitHub
+│   ├── GitHub Packages: Your packages, at home with their code · GitHub
+│   ├── GitHub Privacy Statement - GitHub Docs
+│   ├── GitHub Privacy Statement - GitHub Docs
+│   ├── GitHub Professional Services | From idea to implementation, our experts are ready to help your t
+│   ├── GitHub Security · GitHub
+│   ├── GitHub Skills
+│   ├── GitHub Sponsors · GitHub
+│   ├── GitHub Status
+│   ├── GitHub Support
+│   ├── GitHub Terms of Service - GitHub Docs
+│   ├── GitHub Terms of Service - GitHub Docs
+│   ├── GitHub for teams · Build like the best teams on the planet · GitHub
+│   ├── GitHub: Where the world builds software · GitHub
+│   ├── GitHub: Where the world builds software · GitHub
+│   ├── GitHub: Where the world builds software · GitHub (#start-of-content)
+│   ├── Home - GitHub Resources
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Join GitHub · GitHub
+│   ├── Join GitHub · GitHub
+│   ├── Join GitHub · GitHub
+│   ├── Labels · python-poetry/poetry · GitHub
+│   ├── Mechanism to reinstall (editable) dependencies to trigger metadata re-build · Issue #6639 · pyth
+│   ├── Milestones - python-poetry/poetry · GitHub
+│   ├── Namespace and build are incompatible with Poetry 1.2.1 · Issue #6610 · python-poetry/poetry · Gi
+│   ├── Packages won't install in project virtual env on Raspberry Pi · Issue #6579 · python-poetry/poet
+│   ├── Poetry 1.2 lockfiles can't always be installed by Poetry 1.1 · Issue #6593 · python-poetry/poetr
+│   ├── Poetry 1.2.0 doesn't seem to like shortened git commit hashes · Issue #6455 · python-poetry/poet
+│   ├── Poetry can get locked into an unusable state with plugins: 'The command "..." already exists' ·
+│   ├── Poetry cannot choose orjson wheel for M1 macos · Issue #6573 · python-poetry/poetry · GitHub
+│   ├── Poetry env use does not select specific interpreter · Issue #6483 · python-poetry/poetry · GitHu
+│   ├── Poetry with `virtualenvs.create false` installs packages into the wrong place on Ubuntu · Issue
+│   ├── Poetry · GitHub
+│   ├── Poetry's internal pyproject.toml continually grows larger with empty lines · Issue #6457 · pytho
+│   ├── Pricing · Plans for every developer · GitHub
+│   ├── Pricing · Plans for every developer · GitHub (#compare-features)
+│   ├── Projects · poetry · GitHub
+│   ├── Provide more information regarding --no-cache flag · Issue #6445 · python-poetry/poetry · GitHub
+│   ├── Pull requests · python-poetry/poetry · GitHub
+│   ├── Pulse · python-poetry/poetry · GitHub
+│   ├── Removal of get-poetry.py · Issue #6377 · python-poetry/poetry · GitHub
+│   ├── Security Overview · python-poetry/poetry · GitHub
+│   ├── Sign in to GitHub · GitHub
+│   ├── Sign in to GitHub · GitHub
+│   ├── Sign in to GitHub · GitHub
+│   ├── The Fundamentals of DevSecOps in DevOps - GitHub Resources
+│   ├── The GitHub Blog | Updates, ideas, and inspiration from GitHub to help developers build and desig
+│   ├── The ReadME Project · Meet the people behind the projects you love · GitHub
+│   ├── Topics on GitHub · GitHub
+│   ├── Trending  repositories on GitHub today · GitHub
+│   ├── Unable to build wheel for poetry-core 1.1.0 if poetry 1.1.15 is installed · Issue #6508 · python
+│   ├── What is DevOps? DevOps, CI/CD and DevSecOps Defined | GitHub Resources
+│   ├── _add_incompatibility AssertionError with prodigy wheel · Issue #6607 · python-poetry/poetry · Gi
+│   ├── `poetry build` fails sdist build when using multiple `readme` entries · Issue #6633 · python-poe
+│   ├── `poetry install` incorrectly resolve python files in current folder · Issue #6627 · python-poetr
+│   ├── `poetry update <package>` does not work properly with optional git packages · Issue #6452 · pyth
+│   ├── adds fallback behavior for non-ms shells by bmarroquin · Pull Request #6560 · python-poetry/poet
+│   ├── fix(env): run Python inside environments in isolated mode by neersighted · Pull Request #6628 ·
+│   ├── poetry doesn't include package in pyproject.toml packages · Issue #6511 · python-poetry/poetry ·
+│   ├── poetry shell in git bash on Windows broken since 1.2.0 · Issue #6495 · python-poetry/poetry · Gi
+│   ├── ❤️ First time contributors · Issue #3061 · python-poetry/poetry · GitHub
+│   └── 🧹 Test Suite Cleanup: Permanent Issue · Issue #3155 · python-poetry/poetry · GitHub
+├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging (#version-constraints)
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── PEP 440 – Version Identification and Dependency Specification | peps.python.org
+│   ├── PEP 440 – Version Identification and Dependency Specification | peps.python.org (#semantic-versioning)
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#libraries)
+│   ├── Poetry - Python dependency management and packaging made easy (#lock-file)
+│   ├── Poetry - Python dependency management and packaging made easy (#packaging)
+│   ├── Poetry - Python dependency management and packaging made easy (#publishing-to-a-private-repository)
+│   ├── Poetry - Python dependency management and packaging made easy (#publishing-to-pypi)
+│   ├── Poetry - Python dependency management and packaging made easy (#versioning)
+│   ├── PyPI · The Python Package Index
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy (#adding-a-repository)
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy (#configuring-credentials)
+│   ├── Semantic Versioning 2.0.0 | Semantic Versioning
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── pendulum · PyPI
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#add)
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#install)
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#remove)
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#adding-a-dependency-to-a-group)
+│   ├── Poetry - Python dependency management and packaging made easy (#dependency-groups)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-group-dependencies)
+│   ├── Poetry - Python dependency management and packaging made easy (#layering-optional-groups)
+│   ├── Poetry - Python dependency management and packaging made easy (#managing-dependencies)
+│   ├── Poetry - Python dependency management and packaging made easy (#optional-groups)
+│   ├── Poetry - Python dependency management and packaging made easy (#removing-dependencies-from-a-group)
+│   ├── Poetry - Python dependency management and packaging made easy (#synchronizing-dependencies)
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m (#extras)
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - pyenv/pyenv: Simple Python version management
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#deleting-the-environments)
+│   ├── Poetry - Python dependency management and packaging made easy (#displaying-the-environment-information)
+│   ├── Poetry - Python dependency management and packaging made easy (#listing-the-environments-associated-with-the-project)
+│   ├── Poetry - Python dependency management and packaging made easy (#managing-environments)
+│   ├── Poetry - Python dependency management and packaging made easy (#switching-between-environments)
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#add)
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - python-poetry/cleo: Cleo allows you to create beautiful and testable command-line inter
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#application-plugins)
+│   ├── Poetry - Python dependency management and packaging made easy (#creating-a-plugin)
+│   ├── Poetry - Python dependency management and packaging made easy (#event-handler)
+│   ├── Poetry - Python dependency management and packaging made easy (#generic-plugins)
+│   ├── Poetry - Python dependency management and packaging made easy (#plugin-package)
+│   ├── Poetry - Python dependency management and packaging made easy (#plugins)
+│   ├── Poetry - Python dependency management and packaging made easy (#the-self-add-command)
+│   ├── Poetry - Python dependency management and packaging made easy (#using-plugins)
+│   ├── Poetry - Python dependency management and packaging made easy (#with-pip)
+│   ├── Poetry - Python dependency management and packaging made easy (#with-pipx-inject)
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m (#plugins)
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── Poetry - Python dependency management and packaging made easy
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── Python Poetry
+├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Access denied
+│   ├── Access denied
+│   ├── Access denied (#upload-api)
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Cache-Control - HTTP | MDN
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#add)
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#cache-clear)
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#config)
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#publish)
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#source)
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy (#using-environment-variables)
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── Help · PyPI (#apitoken)
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── PEP 503 – Simple Repository API | peps.python.org
+│   ├── PEP 658 – Serve Distribution Metadata in the Simple Repository API | peps.python.org
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#caches)
+│   ├── Poetry - Python dependency management and packaging made easy (#certificates)
+│   ├── Poetry - Python dependency management and packaging made easy (#configuring-credentials)
+│   ├── Poetry - Python dependency management and packaging made easy (#custom-certificate-authority-and-mutual-tls-authentication)
+│   ├── Poetry - Python dependency management and packaging made easy (#debugging-issues)
+│   ├── Poetry - Python dependency management and packaging made easy (#default-package-source)
+│   ├── Poetry - Python dependency management and packaging made easy (#installing-from-private-package-sources)
+│   ├── Poetry - Python dependency management and packaging made easy (#package-source)
+│   ├── Poetry - Python dependency management and packaging made easy (#package-sources)
+│   ├── Poetry - Python dependency management and packaging made easy (#private-repository-example)
+│   ├── Poetry - Python dependency management and packaging made easy (#project-configuration)
+│   ├── Poetry - Python dependency management and packaging made easy (#publishable-repositories)
+│   ├── Poetry - Python dependency management and packaging made easy (#publishable-repository)
+│   ├── Poetry - Python dependency management and packaging made easy (#publishing-to-a-private-repository)
+│   ├── Poetry - Python dependency management and packaging made easy (#python-package-index-pypi)
+│   ├── Poetry - Python dependency management and packaging made easy (#repositories)
+│   ├── Poetry - Python dependency management and packaging made easy (#secondary-package-sources)
+│   ├── Poetry - Python dependency management and packaging made easy (#simple-api-repository)
+│   ├── Poetry - Python dependency management and packaging made easy (#single-page-link-source)
+│   ├── Poetry - Python dependency management and packaging made easy (#supported-package-sources)
+│   ├── PyPI · The Python Package Index
+│   ├── Python Poetry
+│   ├── TestPyPI · The Python Package Index
+│   ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── artifacts-keyring · PyPI
+│   ├── azure-devops-artifacts-helpers · PyPI
+│   ├── keyring · PyPI
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+│   ├── Access denied
+│   ├── Access denied
+│   ├── Access denied (#description-optional)
+│   ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Blog | Poetry - Python dependency management and packaging made easy
+│   ├── Classifiers · PyPI
+│   ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+│   ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+│   ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+│   ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+│   ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+│   ├── History | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+│   ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Issues · python-poetry/poetry · GitHub
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy (#versioning)
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad (#dependency-groups)
+│   ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad (#optional-groups)
+│   ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+│   ├── PEP 440 – Version Identification and Dependency Specification | peps.python.org
+│   ├── PEP 508 – Dependency specification for Python Software Packages | peps.python.org (#extras)
+│   ├── PEP 508 – Dependency specification for Python Software Packages | peps.python.org (#names)
+│   ├── PEP 517 – A build-system independent format for source trees | peps.python.org
+│   ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy
+│   ├── Poetry - Python dependency management and packaging made easy (#authors)
+│   ├── Poetry - Python dependency management and packaging made easy (#build)
+│   ├── Poetry - Python dependency management and packaging made easy (#classifiers)
+│   ├── Poetry - Python dependency management and packaging made easy (#dependencies-and-dependency-groups)
+│   ├── Poetry - Python dependency management and packaging made easy (#description)
+│   ├── Poetry - Python dependency management and packaging made easy (#documentation)
+│   ├── Poetry - Python dependency management and packaging made easy (#extras)
+│   ├── Poetry - Python dependency management and packaging made easy (#homepage)
+│   ├── Poetry - Python dependency management and packaging made easy (#include-and-exclude)
+│   ├── Poetry - Python dependency management and packaging made easy (#keywords)
+│   ├── Poetry - Python dependency management and packaging made easy (#license)
+│   ├── Poetry - Python dependency management and packaging made easy (#maintainers)
+│   ├── Poetry - Python dependency management and packaging made easy (#name)
+│   ├── Poetry - Python dependency management and packaging made easy (#packages)
+│   ├── Poetry - Python dependency management and packaging made easy (#plugins)
+│   ├── Poetry - Python dependency management and packaging made easy (#poetry-and-pep-517)
+│   ├── Poetry - Python dependency management and packaging made easy (#readme)
+│   ├── Poetry - Python dependency management and packaging made easy (#repository)
+│   ├── Poetry - Python dependency management and packaging made easy (#scripts)
+│   ├── Poetry - Python dependency management and packaging made easy (#the-pyprojecttoml-file)
+│   ├── Poetry - Python dependency management and packaging made easy (#urls)
+│   ├── Poetry - Python dependency management and packaging made easy (#version)
+│   ├── PyPI · The Python Package Index
+│   ├── Python Poetry
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+│   ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy (#using-a-private-repository)
+│   ├── SPDX License List | Software Package Data Exchange (SPDX)
+│   └── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+└── pre-commit hooks | Documentation | Poetry - Python dependency management and packaging made eas
+    ├── Basic usage | Documentation | Poetry - Python dependency management and packaging made easy
+    ├── Blog | Poetry - Python dependency management and packaging made easy
+    ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy
+    ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#check)
+    ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#export)
+    ├── Commands | Documentation | Poetry - Python dependency management and packaging made easy (#lock)
+    ├── Configuration | Documentation | Poetry - Python dependency management and packaging made easy
+    ├── Contributing to Poetry | Documentation | Poetry - Python dependency management and packaging ma
+    ├── Dependency specification | Documentation | Poetry - Python dependency management and packaging
+    ├── Develop. Preview. Ship. For the best frontend teams – Vercel
+    ├── FAQ | Documentation | Poetry - Python dependency management and packaging made easy
+    ├── Git - Git Hooks
+    ├── GitHub - python-poetry/poetry-plugin-export: Poetry plugin to export the dependencies to various
+    ├── GitHub - python-poetry/poetry: Python packaging and dependency management made easy
+    ├── History | Poetry - Python dependency management and packaging made easy
+    ├── Introduction | 1.1 | Documentation | Poetry - Python dependency management and packaging made e
+    ├── Introduction | Documentation | Poetry - Python dependency management and packaging made easy
+    ├── Introduction | master | Documentation | Poetry - Python dependency management and packaging mad
+    ├── Issues · python-poetry/poetry · GitHub
+    ├── Let hook authors define branch to update from · Issue #2508 · pre-commit/pre-commit · GitHub
+    ├── Let user define branch to update from · Issue #2512 · pre-commit/pre-commit · GitHub
+    ├── Libraries | Documentation | Poetry - Python dependency management and packaging made easy
+    ├── Managing dependencies | Documentation | Poetry - Python dependency management and packaging mad
+    ├── Managing environments | Documentation | Poetry - Python dependency management and packaging mad
+    ├── Plugins | Documentation | Poetry - Python dependency management and packaging made easy
+    ├── Poetry - Python dependency management and packaging made easy
+    ├── Poetry - Python dependency management and packaging made easy (#arguments)
+    ├── Poetry - Python dependency management and packaging made easy (#arguments-1)
+    ├── Poetry - Python dependency management and packaging made easy (#arguments-2)
+    ├── Poetry - Python dependency management and packaging made easy (#faq)
+    ├── Poetry - Python dependency management and packaging made easy (#poetry-check)
+    ├── Poetry - Python dependency management and packaging made easy (#poetry-export)
+    ├── Poetry - Python dependency management and packaging made easy (#poetry-lock)
+    ├── Poetry - Python dependency management and packaging made easy (#pre-commit-hooks)
+    ├── Poetry - Python dependency management and packaging made easy (#usage)
+    ├── Poetry - Python dependency management and packaging made easy (#why-does-pre-commit-autoupdate-not-update-to-the-latest-version)
+    ├── Python Poetry
+    ├── Repositories | Documentation | Poetry - Python dependency management and packaging made easy
+    ├── The pyproject.toml file | Documentation | Poetry - Python dependency management and packaging m
+    ├── ignore autoupdate for specific hook/s · Issue #1959 · pre-commit/pre-commit · GitHub
+    └── pre-commit
