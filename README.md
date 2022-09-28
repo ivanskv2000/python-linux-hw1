@@ -65,7 +65,7 @@ https://twitter.com/vercel	HTTPSConnectionPool(host='twitter.com', port=443): Ma
 
 `data` directory contains html dumps of all the pages listed in `urls.txt`. We also get a tree representation of the Poetry website (see below).
 
-[!!! TREE HERE !!!](https://github.com/ivanskv2000/python-linux-hw1/blob/dc04db6153bcab92908e41272522b797f32f6ee5/example_tree.txt#L1-L2081)
+https://github.com/ivanskv2000/python-linux-hw1/blob/dc04db6153bcab92908e41272522b797f32f6ee5/example_tree.txt#L1-L2081
 
 
  
