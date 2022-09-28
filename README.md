@@ -46,7 +46,7 @@ At its minimum, the script just requires a full url of a website to parse. The l
 
 Let's parse the [Poetry website](https://python-poetry.org). We'll set the depth at 3 (without max. number of pages) and ask to save a tree representation of the site. Running
 ``` bash
-python3 parser.py -d 3 -n 500 -t "https://python-poetry.org"
+python3 parser.py -d 3 -t "https://python-poetry.org"
 ```
 we get 2081 pages in almost 23 minutes, and 3 warnings among them. Two of these warnings refer to websites that are blocked in Russia and therefore unreachable, and one is due to incorrect url:
 ```
