@@ -53,7 +53,7 @@ parser.add_argument(
     '-t',
     help='save a tree representation of the site (tree.txt)',
     default=False,
-    action=argparse.BooleanOptionalAction
+    action='store_true'
     )
 
 # Parse arguments from the command line
@@ -211,8 +211,12 @@ class DeepWebParser:
         Happily end the process.
         Ask if user wants to see the errors occured during parsing.
         '''
-        if click.confirm(f'\n\n{len(self.warns)} warnings occured. Want to see them?', default=True):
+        if len(self.warns) == 0:
+            print('\nHave a nice day!')
+        elif click.confirm(f'\n\n{len(self.warns)} warnings occured. Want to see them?', default=True):
             print(*self.warns, sep='')
+        else:
+            print('\nHave a nice day!')
 
     def parse(self):
         '''
