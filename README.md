@@ -48,12 +48,13 @@ Let's parse the [Poetry website](https://python-poetry.org). We'll set the depth
 ``` bash
 python3 parser.py -d 3 -t "https://python-poetry.org"
 ```
-we get 2081 pages in almost 23 minutes, and 3 warnings among them. Two of these warnings refer to websites that are blocked in Russia and therefore unreachable, and one is due to incorrect url:
+we get 2081 pages in almost 23 minutes, and 3 warnings among them. Two of these warnings refer to websites that are blocked in Russia and therefore unreachable, and one is due to incorrect url.
 ```
 https://www.patreon.com/	HTTPSConnectionPool(host='www.patreon.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
 https://twitter.com/vercel	HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /vercel (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fecb27cd790>: Failed to establish a new connection: [Errno 60] Operation timed out'))
 9https://github.com/python-poetry/poetry/pull/4942	No connection adapters were found for '9https://github.com/python-poetry/poetry/pull/4942'
 ```
+Last url is indeed broken, you can find it [here](https://python-poetry.org/history/) (lookup for `<a href="9https://github.com/python-poetry/poetry/pull/4942">#4942</a>` in html code).
 
 `urls.txt` file is a log of all urls that were visited by the parser:
 ```
