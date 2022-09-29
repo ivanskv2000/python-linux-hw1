@@ -69,6 +69,11 @@ Last url is indeed broken, you can find it [here](https://python-poetry.org/hist
 `data` directory contains html dumps of all the pages listed in `urls.txt`. We also get a tree representation of the Poetry website (see below).
 
 https://github.com/ivanskv2000/python-linux-hw1/blob/dc04db6153bcab92908e41272522b797f32f6ee5/example_tree.txt#L1-L100
+ 
+What's interesting here:
+- Fragment identifiers ("#") are indeed parsed as separate pages, e. g. "Commands | Documentation | Poetry - Python dependency management and packaging made easy (#install)", where (#install) refers to the name of the fragment.
+- We can clearly see three levels of this website, since we set the `depth` parameter at 3.
+- Duplicated links are only removed within one page and not globally, so naturally we see the Blog page several times in our tree (Poetry -> Basic Usage -> Blog, Poetry -> Blog, etc.)
 
 
  
