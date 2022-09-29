@@ -48,12 +48,13 @@ Let's parse the [Poetry website](https://python-poetry.org). We'll set the depth
 ``` bash
 python3 parser.py -d 3 -t "https://python-poetry.org"
 ```
-we get 2081 pages in almost 23 minutes, and 3 warnings among them. Two of these warnings refer to websites that are blocked in Russia and therefore unreachable, and one is due to incorrect url:
+we get 2081 pages in almost 23 minutes, and 3 warnings among them. Two of these warnings refer to websites that are blocked in Russia and therefore unreachable, and one is due to incorrect url.
 ```
 https://www.patreon.com/	HTTPSConnectionPool(host='www.patreon.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
 https://twitter.com/vercel	HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /vercel (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fecb27cd790>: Failed to establish a new connection: [Errno 60] Operation timed out'))
 9https://github.com/python-poetry/poetry/pull/4942	No connection adapters were found for '9https://github.com/python-poetry/poetry/pull/4942'
 ```
+Last url is indeed broken, you can find it [here](https://python-poetry.org/history/) (lookup for `<a href="9https://github.com/python-poetry/poetry/pull/4942">#4942</a>` in html code).
 
 `urls.txt` file is a log of all urls that were visited by the parser:
 ```
@@ -68,6 +69,11 @@ https://twitter.com/vercel	HTTPSConnectionPool(host='twitter.com', port=443): Ma
 `data` directory contains html dumps of all the pages listed in `urls.txt`. We also get a tree representation of the Poetry website (see below).
 
 https://github.com/ivanskv2000/python-linux-hw1/blob/dc04db6153bcab92908e41272522b797f32f6ee5/example_tree.txt#L1-L100
+ 
+What's interesting here:
+- Fragment identifiers ("#") are indeed parsed as separate pages, e. g. "Commands | Documentation | Poetry - Python dependency management and packaging made easy (#install)", where (#install) refers to the name of the fragment.
+- We can clearly see three levels of this website, since we set the `depth` parameter at 3.
+- Duplicated links are only removed within one page and not globally, so naturally we see the Blog page several times in our tree (Poetry -> Basic Usage -> Blog, Poetry -> Blog, etc.)
 
 
  
