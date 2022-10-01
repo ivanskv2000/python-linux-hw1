@@ -183,7 +183,7 @@ class DeepWebParser:
             urls = [i for i in urls if ('tel:' not in i) and ('mailto:' not in i)]
 
             # filtering out self-links
-            urls = filter(lambda x: x != url, urls)
+            urls = list(filter(lambda x: x != url, urls))
 
             # removing duplicates
             urls = list(set(urls))
